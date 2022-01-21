@@ -1,0 +1,38 @@
+.piybeep_content {
+    display: flex;
+    flex-direction: column;
+    height: 737px;
+    justify-content: center;
+    background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
+    background-repeat: no-repeat;
+    background-position: 230px 50px, 250px bottom, 1350px 450px;
+}
+.piybeep_info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.piybeep_content p{
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 23.2px;
+    color: #98EC65;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.piybeep_content h1{
+    font-size: 144px;
+    line-height: 144px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    font-family: 'Arvo', serif;
+}
+.piybeep_content h1::after{
+    content: '';
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    background-color: #98EC65;
+}
+
