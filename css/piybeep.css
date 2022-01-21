@@ -1,7 +1,7 @@
 .piybeep_content {
     display: flex;
     flex-direction: column;
-    height: 737px;
+    height: 1080px;
     justify-content: center;
     background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
     background-repeat: no-repeat;
