@@ -5,12 +5,14 @@
     justify-content: center;
     background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
     background-repeat: no-repeat;
-    background-position: 230px 50px, 250px bottom, 1350px 450px;
+    background-position: 230px 150px, 250px 800px, 1450px 700px;
+    border: 1px solid red;
 }
 .piybeep_info{
     display: flex;
     flex-direction: column;
     align-self: center;
+    border: 1px solid red;
 }
 .piybeep_content p{
     font-size: 18px;
