@@ -1,11 +1,27 @@
 .piybeep_content {
     display: flex;
     flex-direction: column;
-    height: 1030px;
+    height: 100vh;
     justify-content: center;
+    background-repeat: no-repeat;
+}
+.piybeep_bg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 1300px;
+    height: 730px;
     background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
     background-repeat: no-repeat;
-    background-position: 230px 150px, 250px 800px, 1450px 700px;
+    background-position: left top, 53px bottom, right 473px;
+
+    opacity: 0;
+    animation-name: squareVisibility;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
 }
 .piybeep_info{
     display: flex;
@@ -19,8 +35,8 @@
     line-height: 23.2px;
     color: #98EC65;
     font-family: 'Source Sans Pro', sans-serif;
+    
     opacity: 0;
-
     animation-name: squareVisibility;
     animation-timing-function: linear;
     animation-duration: 2s;
