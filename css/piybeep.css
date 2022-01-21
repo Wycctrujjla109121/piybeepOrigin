@@ -19,6 +19,13 @@
     line-height: 23.2px;
     color: #98EC65;
     font-family: 'Source Sans Pro', sans-serif;
+    opacity: 0;
+
+    animation-name: squareVisibility;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
 }
 .piybeep_content h1{
     font-size: 144px;
@@ -27,6 +34,13 @@
     text-transform: uppercase;
     color: #DEDEDE;
     font-family: 'Arvo', serif;
+    
+    opacity: 0;
+    animation-name: squareVisibility;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-delay: 1s;
 }
 .piybeep_content h1::after{
     content: '';
@@ -34,5 +48,23 @@
     height: 9px;
     width: 9px;
     background-color: #98EC65;
+
+    opacity: 0;
+    animation-name: squareVisibility;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
 }
 
+@keyframes squareVisibility{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
