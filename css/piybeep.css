@@ -41,7 +41,6 @@
     animation-timing-function: linear;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
 }
 .piybeep_content h1{
     font-size: 144px;
@@ -55,8 +54,7 @@
     animation-name: squareVisibility;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
-    animation-duration: 4s;
-    animation-delay: 1s;
+    animation-duration: 2s;
 }
 .piybeep_content h1::after{
     content: '';
@@ -70,7 +68,7 @@
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-duration: 2s;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes squareVisibility{

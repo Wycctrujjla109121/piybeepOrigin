@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #100F13;
     min-height: 100%;
+    min-width: 1700px;
 }
 .content{
     display: flex;
