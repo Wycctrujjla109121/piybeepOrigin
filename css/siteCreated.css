@@ -11,7 +11,8 @@
 .site_create_info{
 }
 .site_content_text {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
     font-size: 72px;
     line-height: 92.81px;
     width: 922px;

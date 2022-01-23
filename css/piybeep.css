@@ -34,8 +34,9 @@
     text-transform: uppercase;
     line-height: 23.2px;
     color: #98EC65;
-    font-family: 'Source Sans Pro', sans-serif;
-    
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+
     opacity: 0;
     animation-name: squareVisibility;
     animation-timing-function: linear;
@@ -49,7 +50,8 @@
     text-transform: uppercase;
     color: #DEDEDE;
     font-family: 'Arvo', serif;
-    
+    font-weight: 400;
+
     opacity: 0;
     animation-name: squareVisibility;
     animation-timing-function: ease-in;

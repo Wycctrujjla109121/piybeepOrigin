@@ -8,30 +8,41 @@
     background-repeat: no-repeat;
     background-position: left 450px;
 }
+.type_site_info_text_arrow{
+    display: flex;
+}
+.type_site_info_text_arrow img{
+    margin-left: 74px;
+}
+.type_site_info_text_arrow_opacity{
+    margin-left: 74px;
+    animation-name: animationArrowGreen;
+    animation-duration: 2s;
+}
+.animation_arrow_white{
+    animation-name: animationArrowWhite;
+    animation-duration: 2s;
+}
 .type_site_text{
+}
+.type_site_text :hover h3{
+    transition: 0.5s;
+    color: #98EC65;
 }
 .type_site_text h3{
     font-size: 72px;
     line-height: 92.81px;
     font-family: 'PT Mono', monospace;
+    font-weight: 400;
     color: #DCDCDC;
 }
 .type_site_text p{
     font-size: 18px;
     line-height: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
     color: #797979;
 }
-.type_site_text h3::after{
-    content: '';
-    display: inline-block;
-    margin-left: 74px;
-    width: 226px;
-    height: 15px;
-    background-image: url(../bgImage/TypeSiteArrowRight.svg);
-    background-repeat: no-repeat;
-}
-
 .lending{
     grid-column-start: 1;
     grid-column-end: 11;
@@ -55,4 +66,30 @@
     grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: 4;
+}
+
+@keyframes animationArrowGreen {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+      opacity: 1;
+    }
+}
+
+@keyframes animationArrowWhite {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+      opacity: 1;
+    }
 }
