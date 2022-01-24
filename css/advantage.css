@@ -1,0 +1,85 @@
+.advantage{
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 822px;
+}
+.advantage__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 195px);
+    gap: 20px;
+    background-image: url(../bgImage/advantageRight.svg), url(../bgImage/advantageLeft.svg);
+    background-repeat: no-repeat;
+    background-position: right 3px, left 215px;
+}
+.advantage__item {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 24px;
+    color: #DCDCDC;
+}
+.advantage__label {
+    font-weight: 500;
+}
+.advantage__text {
+    font-weight: 300;
+}
+.advantage__adaptive {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.advantage__admin{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+.advantage__seo{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.advantage__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.advantage__button {
+    width: 600px;
+    height: 156px;
+    border-radius: 100px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    line-height: 30.94px;
+    text-align: center;
+}
+.advantage_button1{
+    color: #98EC65;
+    font-weight: 300;
+    background-color: #000000;
+}
+.advantage_button2{
+    color: #000000;
+    font-weight: 400;
+    background-color: #98EC65;
+    /* text-decoration:underline #000000; */
+}
+
+/* Костыльная версия подчёркивание мне кажется как-то можно исправить*/
+.advantage_button2::after{
+    display: block;
+    position: relative;
+    content: '';
+    bottom: -4px;
+    left: 206px;
+    width: 188px;
+    height: 2px;
+    border-bottom: 2px solid #000000;
+}

@@ -1,0 +1,24 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 198px;
+    align-items: center;
+    height: 1128px;
+    background-image: url(../bgImage/created_siteLeftTop.svg), url(../bgImage/CreateSiteRightBottom.svg);
+    background-repeat: no-repeat;
+    background-position: left 250px, right 100%;
+}
+.project__label {
+    color: #DCDCDC;
+    font-size: 72px;
+    line-height: 92.81px;
+    width: 922px;
+    height: 279px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+}
+.project__img {
+    width: 901px;
+    height: 574px;
+    margin-top: 202px;
+}
