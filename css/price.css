@@ -1,0 +1,121 @@
+.price {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    border: 1px solid red;
+    margin-top: 151px;
+}
+.price__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price__btn_left{
+    background-image: url(../bgImage/priceRightButton.svg);
+    transform: rotate(180deg);
+    background-color: transparent;
+    width: 92.65px;
+    height: 68px;
+}
+.price__btn_right{
+    background: url(../bgImage/priceRightButton.svg);
+    background-color: transparent;
+    width: 92.65px;
+    height: 68px;
+}
+.price__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+.price__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #98EC65;
+    width: 408px;
+    height: 555px;
+    align-items: center;
+    border-radius: 80px;
+}
+.price__text {
+    /* margin-top: 60px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18.05px;
+    letter-spacing: -0.05em;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+.price_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.price__text::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+    margin-right: 7px;
+    background-image: url(../icon/priceCalendar.svg);
+}
+.price__title {
+    /* margin-top: 46px; */
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30.94px;
+}
+.price__subtitle {
+    /* margin-top: 5px; */
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    color: #fff;
+    line-height: 23.2px;
+}
+.price__desc {
+    /* margin-top: 57px; */
+    width: 370px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+    color: #fff;
+}
+.price__order {
+    /* margin-top: 74px; */
+    width: 171px;
+    height: 39px;
+    background-color: #98EC65;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 23.2px;
+    font-family: 'Source Code Pro', monospace;
+    color: #000000;
+}
+.price__more_details {
+    /* margin-top: 25px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+    color: #fff;
+}
+.price__more_details::after{
+    content: '';
+    display: inline-block;
+    width: 51.12px;
+    height: 6.89px;
+    margin-left: 22px;
+    background-image: url(../bgImage/priceArrow.svg);
+}
+.price__more_details:visited{
+    color: #fff;
+}

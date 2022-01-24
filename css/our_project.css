@@ -38,6 +38,8 @@
     margin-top: 96px;
 }
 .our_project_item {
+    display: flex;
+    flex-direction: column;
 }
 .our_project__img {
     /* Тут ничего нет */
@@ -71,8 +73,12 @@
     font-size: 21px;
     line-height: 27.07px;
     background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s color;
 }
-
+.our_project__button:hover{
+    color: #98EC65;
+}
 .our_project__button::after{
     content: '';
     display: inline-block;
@@ -81,5 +87,9 @@
     height: 15px;
     margin-left: 21px;
     background-image: url(../icon/ourProjectArrow.svg);
+    transition: 0.5s;
     background-repeat: no-repeat;
+}
+.our_project__button:hover::after{
+    background-image: url(../bgImage/ourProjectGreenArrow.svg);
 }
