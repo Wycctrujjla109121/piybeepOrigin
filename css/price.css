@@ -1,8 +1,6 @@
 .price {
     display: flex;
     flex-direction: column;
-    color: red;
-    border: 1px solid red;
     margin-top: 151px;
 }
 .price__button {
