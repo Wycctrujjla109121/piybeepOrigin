@@ -1,22 +1,3 @@
-function anim() {
-    const textAnim = document.querySelector('.site_content_text h3').textContent;
-    const textAminMass = Array.from(textAnim)
-    document.querySelector('.site_content_text h3').textContent = '';
-    k = 0;
-    if (k < textAminMass.length)
-    {
-        const interval = setInterval(() => {
-            if (k < textAminMass.length)
-            {
-                document.querySelector('.site_content_text h3').textContent += textAminMass[k];
-                k++;
-            }
-            else{clearInterval(interval)}
-        }, 100);
-    }
-}
-anim();
-
 const clickTypeSite = document.querySelectorAll('.type_site_text .type_site_info_text_arrow').forEach((site)=>{
     site.addEventListener('click', clickSite);
 })
@@ -29,7 +10,7 @@ function clearTypeSite(){
     })
 }
 
-clearTypeSite()
+// clearTypeSite()
 
 function clickSite(e){
     currentSite = e.currentTarget;
