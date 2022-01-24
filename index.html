@@ -10,13 +10,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=PT+Mono&family=Source+Code+Pro:wght@300;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=PT+Mono&family=Source+Code+Pro:wght@300;500&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/wrapper.css">
-    <link rel="stylesheet" href="css/piybeep.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/siteCreated.css">
-    <link rel="stylesheet" href="css/typeSite.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/itention.css">
+    <link rel="stylesheet" href="css/our_project.css">
+    <link rel="stylesheet" href="css/advantage.css">
 
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/scrollbar.css">
@@ -25,77 +29,110 @@
 <body>
     <div class="wrapper">
         <div class="content">
-            <div class="piybeep_content">
-                <div class="piybeep_bg">
-                    <div class="piybeep_info">
-                        <p>web studio</p>
-                        <h1>piybeep</h1>
+            <div class="header">
+                <div class="header__bg">
+                    <div class="header__item">
+                        <p class="header__text">web studio</p>
+                        <h1 class="header__label">piybeep</h1>
                     </div>
                 </div>
             </div>
-            <div class="menu_content">
-                <div class="menu_info">
-                    <ul>
-                        <a href="">
-                            <li>главная</li>
-                        </a>
-                        <a href="">
-                            <li>услуги</li>
-                        </a>
-                        <a href="">
-                            <li>студия</li>
-                        </a>
-                        <a href="">
-                            <li>портфолио</li>
-                        </a>
-                    </ul>
+
+            <div class="menu">
+                <nav class="menu__info">
+                    <a href="#" class="menu_text">главная</a>
+                    <a href="#" class="menu_text">услуги</a>
+                    <a href="#" class="menu_text">студия</a>
+                    <a href="#" class="menu_text">портфолио</a>
+                </nav>
+            </div>
+
+            <!-- Ещё не знаю как назвать, возможно будет изменено -->
+            <div class="project">
+                <h2 class="project__label">Создаем конверсионные сайты для стартапов и растущих компаний.</h2>
+                <img src="img/created_site 1.svg" alt="" class="project__img">
+            </div>
+
+            <!-- Возможно это виды сайтов -->
+            <!-- Не совсем уверен, что подходит itention, можно заменить на kind_of_site -->
+            <div class="itention">
+                <div class="itention__type itention__lending">
+                    <div class="itention__item">
+                        <h3 class="itention__label">Лендинги</h3>
+                    </div>
+                    <p class="itention__text">с макетинговой обработкой</p>
+                </div>
+
+                <div class="itention__type itention__web">
+                    <h3 class="itention__label">Веб-приложения</h3>
+                    <p class="itention__text">с безупречной работой ресурса</p>
+                </div>
+
+                <div class="itention__type itention__online_store">
+                    <h3 class="itention__label">Интернет-магазины</h3>
+                    <p class="itention__text">с удобным интерфейсом для покупок</p>
+                </div>
+
+                <div class="itention__type itention__corporate_site">
+                    <h3 class="itention__label">Корпоративные сайты</h3>
+                    <p class="itention__text">с исключительными конкурентными преимуществами</p>
                 </div>
             </div>
-            <div class="site_created_content">
-                <div class="site_create_info">
-                    <div class="site_content_text">
-                        <h3>Создаем конверсионные сайты для стартапов и растущих компаний.</h3>
+
+            <div class="our_project">
+                <h2 class="our_project__title title">Наши проекты</h2>
+                <div class="our_project__list">
+                    <div class="our_project_item">
+                        <img class="our_project__img" src="img/siteHoney.svg" alt="">
+                        <h3 class="our_project__label">RM honey</h3>
+                        <p class="our_project__text">Лендинг магазина по продаже меда</p>
                     </div>
-                    <div class="site_content_block"></div>
+
+                    <div class="our_project_item">
+                        <img class="our_project__img" src="img/siteCold.svg" alt="">
+                        <h3 class="our_project__label">Moscow cold</h3>
+                        <p class="our_project__text">Интернет-магазин по продаже кондиционеров</p>
+                    </div>
                 </div>
+                <button class="our_project__button">Показать больше</button>
             </div>
-            <div class="type_site_content">
-                <div class="type_site_text lending">
-                    <div class="type_site_info_text_arrow">
-                        <h3>Лендинги</h3>
-                        <img src="bgImage/TypeSiteArrowRight.svg" class="animation_arrow_white" alt="">
+            <!-- 
+                 -->
+            <div class="advantage">
+                <div class="advantage__grid">
+                    <div class="advantage__item advantage__adaptive">
+                        <h3 class="advantage__label">Адаптивный дизайн <span class="advantage__text">под все устройства
+                            увеличивает конверсию сайта</span></h3>
+                        </div>
+                        
+                        <div class="advantage__item advantage__admin">
+                            <h3 class="advantage__label">Удобная админка <span class="advantage__text">ускоряет редактирование контента</span></h3>
+                        </div>
+                        
+                        <div class="advantage__item advantage__seo">
+                            <h3 class="advantage__label">
+                                <span class="advantage__text">
+                                    Базовая
+                                </span>
+                                SEO оптимизация
+                                <span class="advantage__text">
+                                    для продвижения в браузере и увеличения трафика потенциальных клиентов
+                                </span>
+                            </h3>
+                        </div>
                     </div>
-                    <p>с макетинговой обработкой</p>
-                </div>
-                <div class="type_site_text web_app">
-                    <div class="type_site_info_text_arrow">
-                        <h3>Веб-приложения</h3>
-                        <img src="bgImage/TypeSiteArrowRight.svg" alt="">
+                    <div class="advantage__list">
+                        <button class="advantage__button advantage_button1">Все это входит стандартную стоимость разработки</button>
+                        <button class="advantage__button advantage_button2">Заказать сайт</button>
                     </div>
-                    <p>с безупречной работой ресурса</p>
-                </div>
-                <div class="type_site_text online_store">
-                    <div class="type_site_info_text_arrow">
-                        <h3>Интернет-магазины</h3>
-                        <img src="bgImage/TypeSiteArrowRight.svg" alt="">
-                    </div>
-                    <p>с удобным интерфейсом для покупок</p>
-                </div>
-                <div class="type_site_text corporate_website">
-                    <div class="type_site_info_text_arrow">
-                        <h3>Корпоративные сайты</h3>
-                        <img src="bgImage/TypeSiteArrowRight.svg" alt="">
-                    </div>
-                    <p>с исключительными конкурентными преимуществами</p>
-                </div>
             </div>
+
         </div>
         <div class="footer">
             <footer>made by peybeep</footer>
         </div>
     </div>
-
-    <script src="js/js.js"></script>
+    <script src="js/mass.js"></script>
 </body>
 
 </html>
