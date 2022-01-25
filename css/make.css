@@ -40,13 +40,13 @@
     padding-top: 19px;
     font-weight: 400;
     color: #fff;
-    background-image: url(../bgImage/makeLabelBg.svg);
+    /* background-image: url(../bgImage/makeLabelBg.svg); */
 }
-/*  спросить у Егора по поводу hovera надо делать или нет
+ /* спросить у Егора по поводу hovera надо делать или нет */
 .make__label:hover{
     background-image: url(../bgImage/makeLabelBg.svg);
 }
-*/
+
 
 .make__info {
     align-self: center;
