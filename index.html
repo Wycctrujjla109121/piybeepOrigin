@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="css/advantage.css">
     <link rel="stylesheet" href="css/steps.css">
     <link rel="stylesheet" href="css/price.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/evolution.css">
+    <link rel="stylesheet" href="css/feedback.css">
 
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/scrollbar.css">
@@ -42,10 +45,10 @@
 
             <div class="menu">
                 <nav class="menu__info">
-                    <a href="#" class="menu_text">главная</a>
-                    <a href="#" class="menu_text">услуги</a>
-                    <a href="#" class="menu_text">студия</a>
-                    <a href="#" class="menu_text">портфолио</a>
+                    <a href="index.html" class="menu_text">главная</a>
+                    <a href="services.html" class="menu_text">услуги</a>
+                    <a href="studio.html" class="menu_text">студия</a>
+                    <a href="portfolio.html" class="menu_text">портфолио</a>
                 </nav>
             </div>
 
@@ -85,97 +88,146 @@
                 <h2 class="our_project__title title">Наши проекты</h2>
                 <div class="our_project__list">
                     <div class="our_project_item">
-                        <img class="our_project__img" src="img/siteHoney.svg" alt="">
+                        <div class="our_project__wrapper_img">
+                            <img class="our_project__img" src="img/siteHoney.svg" alt="">
+                        </div>
                         <h3 class="our_project__label">RM honey</h3>
                         <p class="our_project__text">Лендинг магазина по продаже меда</p>
                     </div>
 
                     <div class="our_project_item">
-                        <img class="our_project__img" src="img/siteCold.svg" alt="">
+                        <div class="our_project__wrapper_img">
+                            <img class="our_project__img" src="img/siteCold.svg" alt="">
+                        </div>
                         <h3 class="our_project__label">Moscow cold</h3>
                         <p class="our_project__text">Интернет-магазин по продаже кондиционеров</p>
                     </div>
                 </div>
                 <button class="our_project__button">Показать больше</button>
             </div>
-            <!-- 
-                 -->
+
             <div class="advantage">
                 <div class="advantage__grid">
                     <div class="advantage__item advantage__adaptive">
                         <h3 class="advantage__label">Адаптивный дизайн <span class="advantage__text">под все устройства
-                            увеличивает конверсию сайта</span></h3>
-                        </div>
-                        
-                        <div class="advantage__item advantage__admin">
-                            <h3 class="advantage__label">Удобная админка <span class="advantage__text">ускоряет редактирование контента</span></h3>
-                        </div>
-                        
-                        <div class="advantage__item advantage__seo">
-                            <h3 class="advantage__label">
-                                <span class="advantage__text">
-                                    Базовая
-                                </span>
-                                SEO оптимизация
-                                <span class="advantage__text">
-                                    для продвижения в браузере и увеличения трафика потенциальных клиентов
-                                </span>
-                            </h3>
-                        </div>
+                                увеличивает конверсию сайта</span></h3>
                     </div>
-                    <div class="advantage__list">
-                        <h3 class="advantage__desc">Все это входит стандартную стоимость разработки</h3>
-                        <button class="advantage__button">Заказать сайт</button>
+
+                    <div class="advantage__item advantage__admin">
+                        <h3 class="advantage__label">Удобная админка <span class="advantage__text">ускоряет
+                                редактирование контента</span></h3>
                     </div>
+
+                    <div class="advantage__item advantage__seo">
+                        <h3 class="advantage__label">
+                            <span class="advantage__text">
+                                Базовая
+                            </span>
+                            SEO оптимизация
+                            <span class="advantage__text">
+                                для продвижения в браузере и увеличения трафика потенциальных клиентов
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="advantage__list">
+                    <h3 class="advantage__desc">Все это входит стандартную стоимость разработки</h3>
+                    <button class="advantage__button">Заказать сайт</button>
+                </div>
             </div>
 
             <!-- steps - сделан, находится в steps.html -->
-                <a href="steps.html" class="step">steps</a>
+            <a href="steps.html" class="step">steps</a>
 
-                <div class="price">
-                    <div class="price__button">
-                        <button class="price__btn_left"></button>
-                        <button class="price__btn_right"></button>
+            <div class="price">
+                <div class="price__button">
+                    <button class="price__btn_left"></button>
+                    <button class="price__btn_right"></button>
+                </div>
+                <div class="price__list">
+                    <div class="price__item">
+                        <p class="price__text">10-14 дней</p>
+                        <div class="price_info">
+                            <h2 class="price__title">Лендинг/промосайт</h2>
+                            <span class="price__subtitle">от 55 000 ₽</span>
+                        </div>
+                        <h3 class="price__desc">Продающий дизайн и продуманный контент увеличивают конверсию сайта и
+                            повышают эффективность рекламных кампаний.</h3>
+                        <button class="price__order">Заказать</button>
+                        <a href="" class="price__more_details">Подробнее</a>
                     </div>
-                    <div class="price__list">
-                        <div class="price__item">
-                            <p class="price__text">10-14 дней</p>
-                            <div class="price_info">
-                                <h2 class="price__title">Лендинг/промосайт</h2>
-                                <span class="price__subtitle">от 55 000 ₽</span>
-                            </div>
-                            <h3 class="price__desc">Продающий дизайн и продуманный контент увеличивают конверсию сайта и повышают эффективность рекламных кампаний.</h3>
-                            <button class="price__order">Заказать</button>
-                            <a href="" class="price__more_details">Подробнее</a>
-                        </div>
 
-                        <div class="price__item">
-                            <p class="price__text">10-14 дней</p>
-                            <div class="price_info">
-                                <h2 class="price__title">Корпоративный сайт</h2>
-                                <span class="price__subtitle">от 85 000 ₽</span>
-                            </div>
-                            <h3 class="price__desc">Интернет-ресурс для отражения вашего УТП, качественной презентации продукта и выделения среди конкурентов.</h3>
-                            <button class="price__order">Заказать</button>
-                            <a href="" class="price__more_details">Подробнее</a>
+                    <div class="price__item">
+                        <p class="price__text">10-14 дней</p>
+                        <div class="price_info">
+                            <h2 class="price__title">Корпоративный сайт</h2>
+                            <span class="price__subtitle">от 85 000 ₽</span>
                         </div>
+                        <h3 class="price__desc">Интернет-ресурс для отражения вашего УТП, качественной презентации
+                            продукта и выделения среди конкурентов.</h3>
+                        <button class="price__order">Заказать</button>
+                        <a href="" class="price__more_details">Подробнее</a>
+                    </div>
 
-                        <div class="price__item">
-                            <p class="price__text">10-14 дней</p>
-                            <div class="price_info">
-                                <h2 class="price__title">Интернет-магазин</h2>
-                                <span class="price__subtitle">от 115 000 ₽</span>
-                            </div>
-                            <h3 class="price__desc">Удобная навигация, личный кабинет, онлайн-оплата, продуманный дизайн и много другое - всё что нужно для успешных покупок.</h3>
-                            <button class="price__order">Заказать</button>
-                            <a href="" class="price__more_details">Подробнее</a>
+                    <div class="price__item">
+                        <p class="price__text">10-14 дней</p>
+                        <div class="price_info">
+                            <h2 class="price__title">Интернет-магазин</h2>
+                            <span class="price__subtitle">от 115 000 ₽</span>
                         </div>
+                        <h3 class="price__desc">Удобная навигация, личный кабинет, онлайн-оплата, продуманный дизайн и
+                            много другое - всё что нужно для успешных покупок.</h3>
+                        <button class="price__order">Заказать</button>
+                        <a href="" class="price__more_details">Подробнее</a>
                     </div>
                 </div>
+            </div>
+
+            <div class="reviews">
+                <button class="reviews__btn_left"></button>
+                <div class="reviews__list">
+                    <h3 class="reviews__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                        sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                        praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi purus sit
+                        amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                        praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi</h3>
+                    <h3 class="reviews__label">Станислав Константинов <span class="reviews__text">Moscow Cold</span>
+                    </h3>
+                </div>
+                <button class="reviews__btn_right"></button>
+            </div>
+
+            <div class="evolution">
+                <h2 class="evolution__title">Развивайте свой бизнес эффективнее с piybeep</h2>
+            </div>
+
+            <div class="feedback">
+                <h2 class="feedback__title">Оставьте здесь заявку и мы с вами свяжемся</h2>
+                <form action="" class="feedback__form">
+                    <input type="text" class="feedback_input" placeholder="Евгений">
+                    <input type="text" class="feedback_input" placeholder="+7 000 000-00-00">
+                    <input type="text" class="feedback_input" placeholder="dr.pepper@pepper.com">
+                    <input type="text" class="feedback_input" placeholder="Нужен интернет-магазин одежды">
+                    <button class="feedback__button">Отправить</button>
+                </form>
+                <div class="feedback_list">
+                    <div class="feedback_item">
+                        <a href="" class="feedback__home feedback__link">главная</a>
+                        <a href="" class="feedback__services feedback__link">услуги</a>
+                        <a href="" class="feedback__studio feedback__link">студия</a>
+                        <a href="" class="feedback__portfolio feedback__link">портфолио</a>
+                    </div>
+                    <div class="feedback__info">
+                        <a href="" class="feedback__number">8 800 500 123-12-34</a>
+                        <a href="" class="feedback__site">info@piybeep.com</a>
+                    </div>
+                    <h3 class="feedback__footer">made by piybeep</h3>
+                </div>
+            </div>
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             <footer>made by peybeep</footer>
-        </div>
+        </div> -->
     </div>
     <script src="js/mass.js"></script>
 </body>

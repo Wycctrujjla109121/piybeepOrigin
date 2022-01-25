@@ -1,0 +1,101 @@
+.make {
+    margin-top: 98px;
+    display: flex;
+    flex-direction: column;
+}
+.make__title {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    line-height: 92.81px;
+    color: #fff;
+}
+.make__title::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+    margin-left: 24px;
+}
+.make__list {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.make__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 264px;
+    gap: 91px;
+}
+.make__label {
+    font-family: 'PT Mono', monospace;
+    font-size: 60px;
+    line-height: 60px;
+    width: 792px;
+    padding-left: 83px;
+    padding-top: 19px;
+    font-weight: 400;
+    color: #fff;
+    background-image: url(../bgImage/makeLabelBg.svg);
+}
+/*  спросить у Егора по поводу hovera надо делать или нет
+.make__label:hover{
+    background-image: url(../bgImage/makeLabelBg.svg);
+}
+*/
+
+.make__info {
+    align-self: center;
+    width: 835px;
+}
+.make__desc {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+.make__promo{
+    margin-bottom: 20px;
+}
+.make__text{
+    margin-bottom: 40px;
+}
+.make__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.make__button {
+    padding: 24px 60px;
+    background-color: transparent;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30.94px;
+    color: #fff;
+    margin-right: 30px;
+    border: 2px solid #98EC65;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.make__button:hover{
+    border-radius: 45px;
+    transition: 0.5s;
+}
+.make__button:active{
+    transition: 0.5s;
+    background-color: #98EC65;
+    color: #000;
+}
+.make__price {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+}

@@ -1,0 +1,110 @@
+.feedback {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback__title {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #fff;
+}
+.feedback__title::after{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #98EC65;
+    margin-left: 20px;
+}
+.feedback__form {
+    margin-top: 92.5px;
+    display: flex;
+    flex-direction: column;
+    width: 1108px;
+    gap: 20px;
+}
+.feedback_input{
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #838383;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom-left-radius: 30px;
+    margin: 20px 0px;
+
+}
+.feedback__button {
+    margin-top: 72.5px;
+    border-radius: 6px;
+    width: 250px;
+    height: 60px;
+    align-self: center;
+    background-color: #98EC65;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    line-height: 30.17px;
+    transition: 0.5s;
+}
+.feedback__button:hover{
+    transition: 0.5s;
+    border-radius: 35px;
+}
+.feedback_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.feedback_item{
+    margin-top: 190px;
+}
+.feedback__link{
+    margin: 0px 36px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ECECEC;
+}
+.feedback__link:visited{
+    color: #ECECEC;
+}
+.feedback__info{
+    margin-top: 40px;
+}
+.feedback__number{
+    color: #fff;
+    margin-right: 40px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+}
+.feedback__number:visited{
+    color: #fff;
+}
+.feedback__site{
+    color: #98EC65;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+}
+.feedback__site:visited{
+    color: #98EC65;
+}
+.feedback__footer {
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    line-height: 23.2px;
+    letter-spacing: 0.1em;
+    margin-top: 90px;
+    margin-bottom: 48px;
+    color: #fff;
+}

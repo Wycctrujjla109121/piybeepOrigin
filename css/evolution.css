@@ -1,0 +1,22 @@
+.evolution {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+.evolution__title {
+    font-family: 'PT Mono', monospace;
+    font-size: 72px;
+    line-height: 108.29px;
+    font-weight: 400;
+    width: 1000px;
+    text-align: center;
+    color: #fff;
+}
+.evolution__title::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+    margin-left: 15px;
+}

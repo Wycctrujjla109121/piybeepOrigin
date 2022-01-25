@@ -12,13 +12,15 @@
     background-image: url(../bgImage/priceRightButton.svg);
     transform: rotate(180deg);
     background-color: transparent;
-    width: 92.65px;
+    background-repeat: no-repeat;
+    width: 95px;
     height: 68px;
 }
 .price__btn_right{
     background: url(../bgImage/priceRightButton.svg);
     background-color: transparent;
-    width: 92.65px;
+    background-repeat: no-repeat;
+    width: 95px;
     height: 68px;
 }
 .price__list {
@@ -95,6 +97,10 @@
     line-height: 23.2px;
     font-family: 'Source Code Pro', monospace;
     color: #000000;
+    transition: 0.5s;
+}
+.price__order:hover{
+    border-radius: 24px;
 }
 .price__more_details {
     /* margin-top: 25px; */

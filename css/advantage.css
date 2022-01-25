@@ -77,6 +77,10 @@
     height: 2px;
     border-bottom: 2px solid #000000;
 }
+.advantage__button:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+}
 .advantage__desc{
     display: flex;
     flex-direction: column;
