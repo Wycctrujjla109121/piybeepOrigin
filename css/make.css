@@ -40,11 +40,10 @@
     padding-top: 19px;
     font-weight: 400;
     color: #fff;
-    /* background-image: url(../bgImage/makeLabelBg.svg); */
 }
- /* спросить у Егора по поводу hovera надо делать или нет */
 .make__label:hover{
     background-image: url(../bgImage/makeLabelBg.svg);
+    transition: 1s;
 }
 
 

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 123px;
-    margin-top: 100px;
+    margin-top: 65px;
 }
 .menu__info {
     font-size: 18px;
@@ -23,7 +23,7 @@
     border-bottom: 2px solid transparent;
     transition: 0.5s;
 }
-.menu_text:nth-child(1)
+.menu_text_border
 {
     border-bottom: 2px solid #98EC65;
 }

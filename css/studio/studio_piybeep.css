@@ -1,0 +1,55 @@
+.piybeep {
+    height: 379px;
+    margin-top: 106px;
+    background-image: url(../bgImage/studioPiybeepLeftBottom.svg), url(../bgImage/studioPiybeepRightTop.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+}
+.piybeep__list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-image: url(../bgImage/studioPiybeepCenter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.piybeep__item {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.piybeep__text{
+    font-size: 15px;
+    line-height: 19.34px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #98EC65;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.piybeep__title{
+    font-size: 120px;
+    letter-spacing: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-family: 'Arvo', serif;
+    color: #DEDEDE;
+}
+.piybeep__title::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+}
+.piybeep__desc{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #DEDEDE;
+    width: 560px;
+}

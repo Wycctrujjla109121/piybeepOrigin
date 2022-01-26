@@ -105,6 +105,6 @@
     transition: 0.5s;
 }
 .our_project__button:hover::after{
-    background-image: url(../bgImage/ourProjectGreenArrow.svg);
+    background-image: url(../icon/ourProjectGreenArrow.svg);
     transition: 0.5s;
 }

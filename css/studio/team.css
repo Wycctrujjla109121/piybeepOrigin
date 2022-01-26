@@ -1,0 +1,42 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+.team__list {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+}
+.team__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../../bgImage/teamBg.svg);
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 610px;
+}
+.team__name {
+    font-size: 24px;
+    line-height: 30.17px;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+}
+.team__desc {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 30.17px;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 1px solid #98EC65;
+    border-bottom: 1px solid #98EC65;
+    padding: 1px 0px;
+    margin-bottom: 32px;
+}

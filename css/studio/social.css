@@ -1,0 +1,22 @@
+.social {
+    margin-top: 300px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.social__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 64px;
+}
+.social__img{
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    transition: 0.5s;
+}
+.social__img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}

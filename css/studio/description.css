@@ -1,0 +1,32 @@
+.description {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-image: url(../../bgImage/studioDescriptionLeftBottom.svg), url(../../bgImage/studioDescriptionRightTop.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+}
+.description__info{
+    align-self: center;
+}
+.description__text {
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.description__green {
+    color: #98EC65;
+}
+.description__expirience{
+    margin-bottom: 58px;
+    margin-right: 150px;
+    width: 1102px;
+}
+.description__design{
+    margin-left: 150px;
+    width: 1143px;
+}
