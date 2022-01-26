@@ -9,6 +9,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 100px;
+    background-image: url(../../bgImage/teamSquareBg.svg);
+    background-repeat: no-repeat;
+    background-position: 990px 550px;
 }
 .team__item {
     display: flex;

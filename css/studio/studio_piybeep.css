@@ -1,7 +1,7 @@
 .piybeep {
     height: 379px;
     margin-top: 106px;
-    background-image: url(../bgImage/studioPiybeepLeftBottom.svg), url(../bgImage/studioPiybeepRightTop.svg);
+    background-image: url(../../bgImage/studioPiybeepLeftBottom.svg), url(../../bgImage/studioPiybeepRightTop.svg);
     background-repeat: no-repeat;
     background-position: left bottom, right top;
 }
@@ -10,7 +10,7 @@
     justify-content: space-between;
     margin-right: 100px;
     margin-top: 50px;
-    background-image: url(../bgImage/studioPiybeepCenter.svg);
+    background-image: url(../../bgImage/studioPiybeepCenter.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
