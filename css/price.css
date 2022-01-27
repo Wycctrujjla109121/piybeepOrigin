@@ -110,7 +110,7 @@
     align-items: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
-    line-height: 23.2px;
+    line-height: 23px;
     color: #fff;
     transition: 0.5s;
 }
@@ -121,8 +121,9 @@
 .price__more_details::after{
     content: '';
     display: inline-block;
-    width: 51.12px;
-    height: 6.89px;
+    align-items: center;
+    width: 52px;
+    height: 7px;
     margin-left: 22px;
     background-image: url(../bgImage/priceArrow.svg);
     background-repeat: no-repeat;

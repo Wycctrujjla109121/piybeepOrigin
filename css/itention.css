@@ -18,6 +18,8 @@
     transition: 0.5s;
     color: #DCDCDC;
     align-items: center;
+
+    cursor: pointer;
 }
 .itention__label:hover{
     color: #98EC65;

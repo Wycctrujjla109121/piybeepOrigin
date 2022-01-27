@@ -1,0 +1,8 @@
+.footer{
+    background-image: url(../bgImage/feedbackLeftBottom.svg), url(../bgImage/feedbackLeftTop.svg), url(../bgImage/feedbackRightBottom.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 900px, 100px 100px, 1450px 620px;
+}
+.feedback__title{
+    margin-top: 253px;
+}

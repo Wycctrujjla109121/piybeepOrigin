@@ -58,6 +58,9 @@
     min-height: 250px;
 }
 .advantage__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 600px;
     height: 156px;
     border-radius: 100px;
@@ -67,7 +70,9 @@
     line-height: 30.94px;
     font-size: 24px;
     text-align: center;
+    color: #000;
     background-color: #98EC65;
+    transition: 0.5s transform;
 }
 /* Костыльная версия подчёркивание мне кажется как-то можно исправить*/
 .advantage__button::after{
@@ -95,7 +100,6 @@
     transform: scale(1.3);
 }
 .advantage__button:not(:hover){
-    transition: 0.5s;
     transform: scale(1);
 }
 

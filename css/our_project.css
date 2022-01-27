@@ -40,6 +40,8 @@
 .our_project_item {
     display: flex;
     flex-direction: column;
+
+    cursor: pointer;
 }
 .our_project__img {
     max-width: 800;
@@ -74,13 +76,11 @@
     font-size: 18px;
     color: #fff;
 }
-.our_project__form{
+.our_project__button{
     margin-top: 80px;
     display: flex;
     align-self: center;
     align-items: center;
-}
-.our_project__button{
     width: 282px;
     height: 27px;
     color: #fff;

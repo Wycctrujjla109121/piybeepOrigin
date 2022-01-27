@@ -36,30 +36,13 @@
     font-family: 'PT Mono', monospace;
     font-size: 60px;
     line-height: 60px;
-    width: 792px;
+    min-width: 792px;
     padding-left: 83px;
     padding-top: 19px;
+    background-image: url(../bgImage/makeLabelBg.svg);
+
     font-weight: 400;
     color: #fff;
-}
-/* .make__label:hover{
-    background-image: url(../bgImage/makeLabelBg.svg);
-    transition: 1s;
-} */
-.make__wrapper:hover{
-    /* opacity: 0; */
-    animation-name: identifier;
-    animation-duration: 0.5s;
-    background-image: url(../bgImage/makeLabelBg.svg);
-}
-
-@keyframes identifier {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 .make__info {

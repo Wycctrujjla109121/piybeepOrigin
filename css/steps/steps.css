@@ -33,9 +33,9 @@
     margin-top: 63px;
     width: 7037px;
 
-    background-image: url(../bgImage/stepsBottomStart.svg), 
-    url(../bgImage/stepsTop.svg), url(../bgImage/stepsTop.svg), url(../bgImage/stepsTop.svg),
-    url(../bgImage/stepsBottom.svg), url(../bgImage/stepsBottom.svg), url(../bgImage/stepsVector.svg);
+    background-image: url(../../bgImage/stepsBottomStart.svg), 
+    url(../../bgImage/stepsTop.svg), url(../../bgImage/stepsTop.svg), url(../../bgImage/stepsTop.svg),
+    url(../../bgImage/stepsBottom.svg), url(../../bgImage/stepsBottom.svg), url(../../bgImage/stepsVector.svg);
     background-repeat: no-repeat;
     background-position: 320px 430px, 
     1100px 100px, 2735px 100px, 4355px 100px,
