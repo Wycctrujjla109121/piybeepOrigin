@@ -1,9 +1,12 @@
 .description {
-    margin-top: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    margin-top: 300px;
+
     height: 400px;
+    
     background-image: url(../../bgImage/studioDescriptionLeftBottom.svg), url(../../bgImage/studioDescriptionRightTop.svg);
     background-repeat: no-repeat;
     background-position: left bottom, right top;
@@ -24,9 +27,11 @@
 .description__expirience{
     margin-bottom: 58px;
     margin-right: 150px;
+
     width: 1102px;
 }
 .description__design{
     margin-left: 150px;
+    
     width: 1143px;
 }

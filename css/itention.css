@@ -3,7 +3,9 @@
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(4, 111px);
     gap: 56px;
+
     margin-top: 350px;
+
     background-image: url(../bgImage/itentionBgLeftBottom.svg);
     background-repeat: no-repeat;
     background-position: 50px 450px;
@@ -11,13 +13,15 @@
 .itention__label {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
+    font-family: 'PT Mono', monospace;
     font-size: 72px;
     line-height: 92.81px;
-    font-family: 'PT Mono', monospace;
     font-weight: 400;
-    transition: 0.5s;
     color: #DCDCDC;
-    align-items: center;
+
+    transition: 0.5s;
 
     cursor: pointer;
 }
@@ -27,48 +31,57 @@
 .itention__label::after{
     content: '';
     display: inline-block;
+
     width: 230px;
     height: 17px;
+
     background-image: url(../bgImage/TypeSiteArrowRight.svg);
     background-repeat: no-repeat;
+
     margin-left: 74px;
+
     transition: 0.5s;
 }
 .itention__label:hover::after{
     transition: 0.5s;
+
     background-image: url(../bgImage/TypeSiteArrowGreen.svg);
 }
 .itention__img {
     margin-left: 74px;
 }
 .itention__text {
+    font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 18px;
-    font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     color: #797979;
 }
 .itention__lending {
     grid-column-start: 1;
     grid-column-end: 11;
+
     grid-row-start: 1;
     grid-row-end: 1; 
 }
 .itention__web{
     grid-column-start: 2;
     grid-column-end: 11;
+
     grid-row-start: 2;
     grid-row-end: 2; 
 }
 .itention__online_store{
     grid-column-start: 3;
     grid-column-end: 11;
+
     grid-row-start: 3;
     grid-row-end: 3; 
 }
 .itention__corporate_site{
     grid-column-start: 4;
     grid-column-end: 11;
+    
     grid-row-start: 4;
     grid-row-end: 4; 
 }

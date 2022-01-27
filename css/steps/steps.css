@@ -1,8 +1,9 @@
 .step{
     margin: 0 auto;
     margin-top: 350px;
-    color: #fff;
+
     font-size: 55px;
+    color: #fff;
 }
 .step:visited{
     color: #fff;
@@ -10,19 +11,22 @@
 .steps {
     display: flex;
     flex-direction: column;
+
     min-width: 7037px;
     height: 100vh;
+    
     background-color: #100f13;
+    
     overflow-y: hidden;
 }
 .steps__title {
+    font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     line-height: 46.4px;
     letter-spacing: 0.2em;
     font-weight: 500;
-    font-family: 'Source Code Pro', monospace;
-    text-transform: uppercase;
     color: #fff;
+    text-transform: uppercase;
 }
 .steps_list {
     display: grid;
@@ -30,7 +34,9 @@
     grid-template-rows: repeat(2, 1fr);
     row-gap: 69px;
     column-gap: 182px;
+    
     margin-top: 63px;
+
     width: 7037px;
 
     background-image: url(../../bgImage/stepsBottomStart.svg), 
@@ -55,33 +61,40 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 144px;
-    opacity: 0.1;
     color: #fff;
+
+    opacity: 0.1;
 }
 .steps__wrapper__text {
+    align-self: center;
+
+    margin-left: 48px;
+
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 21.94px;
     letter-spacing: 4px;
-    margin-left: 48px;
-    text-transform: uppercase;
     color: #98EC65;
-    align-self: center;
+    text-transform: uppercase;
 }
 .steps__wrapper__text::before{
     content: '';
     display: block;
     position: relative;
+
     bottom: -10px;
     left: -105px;
+
     width: 72px;
     height: 2px;
+
     background-color: #98EC65;
 }
 .steps__inner {
     display: flex;
     flex-direction: column;
+
     margin-left: 77px;
 }
 .steps__inner__label {
@@ -93,11 +106,12 @@
 
 }
 .steps__inner__text {
+    margin-top: 20px;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 23.2px;
     letter-spacing: 0.05em;
-    margin-top: 20px;
     color: #fff;
 }
 .project{
@@ -154,13 +168,17 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    color: #98EC65;
+
     grid-row-start: 1;
     grid-row-end: 3;
+    
+    grid-column-start: 8;
+    grid-column-end: 10;
+    
+    margin-left: 89px;
+    
     font-family: 'PT Mono', monospace;
     font-size: 64px;
     line-height: 82.5px;
-    margin-left: 89px;
-    grid-column-start: 8;
-    grid-column-end: 10;
+    color: #98EC65;
 }

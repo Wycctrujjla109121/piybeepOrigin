@@ -1,23 +1,27 @@
 .reviews {
-    margin-top: 350px;
-    height: 288px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+    margin-top: 350px;
+    
+    height: 288px;
 }
 .reviews__btn_left {
     width: 93px;
     height: 69px;
-    background-color: transparent;
+
     background-image: url(../bgImage/reviewsArrowLeft.svg);
+    background-color: transparent;
     background-repeat: no-repeat;
 }
 .reviews__btn_right {
     width: 97px;
     height: 69px;
-    background-color: transparent;
+
     background-image: url(../bgImage/reviewsArrowRight.svg);
+    background-color: transparent;
     background-repeat: no-repeat;
 }
 .reviews__list {
@@ -28,22 +32,28 @@
     font-weight: 300;
     font-size: 24px;
     line-height: 128.9%;
-    width: 1160px;
     color: #fff;
+
+    width: 1160px;
 }
 .reviews__desc::after{
     content: '';
     display: block;
     position: relative;
+
     bottom: -20px;
+
     width: 180px;
     height: 2px;
+
     background-color: #98EC65;
 }
 .reviews__label {
     display: flex;
     flex-direction: column;
+
     margin-top: 40px;
+    
     font-family: 'Source Code Pro', monospace;
     font-size: 24px;
     line-height: 30.94px;

@@ -1,19 +1,24 @@
 .sites {
     margin-top: 350px;
     margin-bottom: 350px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 276px;
+
     background-image: url(../bgImage/sitesLeftBg.svg), url(../bgImage/sitesRightBg.svg);
     background-repeat: no-repeat;
     background-position: left bottom, right top;
 }
 .sites__title {
     width: 1405px;
-    color: #fff;
+    
+    text-align: center;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 48px;
     line-height: 48px;
-    text-align: center;
+    color: #fff;
 }

@@ -1,10 +1,12 @@
 .our_project {
     display: flex;
     flex-direction: column;
+
     margin-top: 300px;
 }
 .our_project__title {
     position: relative;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     line-height: 46.4px;
@@ -17,24 +19,32 @@
 .title::after{
     content: '';
     display: inline-block;
+
     width: 9px;
     height: 9px;
+
     background-color: #98EC65;
+
     margin-left: 24px;
 }
 .title::before{
     content: '';
     display: block;
     position: absolute;
+
     bottom: 0px;
-    margin-bottom: -15px;
-    width: 69px;
+
     border: 1px solid #fff;
+
+    margin-bottom: -15px;
+
+    width: 69px;
 }
 .our_project__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     margin-top: 96px;
 }
 .our_project_item {
@@ -46,13 +56,17 @@
 .our_project__img {
     max-width: 800;
     max-height: 500;
+
     overflow: hidden;
-    transition: 1s;
+
+    transition: 0.5s;
 }
 .our_project__wrapper_img{
     max-width: 800;
     max-height: 500;
+
     overflow: hidden;
+
     border-radius: 6px;
 }
 .our_project__img:hover
@@ -62,14 +76,16 @@
 }
 .our_project__label{
     margin-top: 20px;
-    color: #fff;
+
+    font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 23.2px;
     font-weight: 500;
-    font-family: 'Source Code Pro', monospace;
+    color: #fff;
 }
 .our_project__text {
     margin-top: 5px;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 300;
     line-height: 23.2px;
@@ -78,18 +94,24 @@
 }
 .our_project__button{
     margin-top: 80px;
+
     display: flex;
     align-self: center;
     align-items: center;
+
     width: 282px;
     height: 27px;
-    color: #fff;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     font-size: 21px;
     line-height: 27.07px;
+    color: #fff;
+
     background-color: transparent;
+
     cursor: pointer;
+    
     transition: 0.5s;
 }
 .our_project__button:hover{
@@ -102,14 +124,19 @@
     content: '';
     display: inline-block;
     align-self: center;
+
     width: 71px;
     height: 15px;
+
     margin-left: 21px;
+
     background-image: url(../icon/ourProjectArrow.svg);
     background-repeat: no-repeat;
+
     transition: 0.5s;
 }
 .our_project__button:hover::after{
     background-image: url(../icon/ourProjectGreenArrow.svg);
+    
     transition: 0.5s;
 }

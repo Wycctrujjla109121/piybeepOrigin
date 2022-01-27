@@ -31,34 +31,41 @@
     border: 1px solid #fff;
 }
 .our_project__list {
-    margin-top: 80px;
-    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
+    
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .our_project__item {
     cursor: pointer;
 }
 .our_project__wrapper_img {
     max-width: 800;
-    height: 500px;
     max-height: 500;
+    height: 500px;
+
     overflow: hidden;
+    
     border-radius: 8px;
 }
 .our_project__wrapper_img_your{
     background-color: #fff;
+
     width: 100%;
     height: 500px;
+    
     background-image: url(../img/ourProject_portfolio_plus.svg);
     background-repeat: no-repeat;
     background-position: center;
+    
     border-radius: 8px;
 }
 .our_project__img {
     transition: 0.5s;
+
     width: 600;
     height: 800;
 }
@@ -68,6 +75,7 @@
 }
 .our_project__label {
     margin-top: 20px;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 23.2px;
@@ -76,6 +84,7 @@
 }
 .our_project__text {
     margin-top: 5px;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     font-size: 18px;
@@ -88,12 +97,15 @@
 .our_project__button{
     width: 278px;
     height: 27px;
+
     background-color: transparent;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     font-size: 21px;
     line-height: 27.07px;
     color: #fff;
+
     transition: 0.5s;
 }
 .our_project__button:hover{
@@ -103,13 +115,18 @@
 .our_project__button::after{
     content: '';
     display: inline-block;
+
     width: 69px;
     height: 15px;
+    
     margin-left: 20px;
+    
     background-image: url(../../icon/ourProjectArrow.svg);
+    
     transition: 0.5s;
 }
 .our_project__button:hover::after{
     background-image: url(../../icon/ourProjectGreenArrow.svg);
+    
     transition: 0.5s;
 }

@@ -1,30 +1,38 @@
 .project {
     display: flex;
     flex-direction: column;
-    margin-top: 198px;
     align-items: center;
+
+    margin-top: 198px;
+    
     height: 1128px;
+
     background-image: url(../bgImage/created_siteLeftTop.svg), url(../bgImage/CreateSiteRightBottom.svg);
     background-repeat: no-repeat;
     background-position: left 250px, right 100%;
 }
 .project__label {
-    color: #DCDCDC;
+    font-family: 'Source Code Pro', monospace;
     font-size: 72px;
     line-height: 92.81px;
+    font-weight: 300;
+    color: #DCDCDC;
+
     width: 922px;
     height: 279px;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 300;
 }
 .project__label::after{
     content: '';
     display: inline-block;
     position: relative;
+
     bottom: -5px;
+
     width: 5px;
     height: 77px;
+
     background-color: #98EC65;
+
     animation-name: animalabel;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
@@ -32,6 +40,7 @@
 .project__img {
     width: 901px;
     height: 574px;
+    
     margin-top: 202px;
 }
 
