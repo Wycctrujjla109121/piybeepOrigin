@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/itention.css">
     <link rel="stylesheet" href="css/our_project.css">
     <link rel="stylesheet" href="css/advantage.css">
-    <link rel="stylesheet" href="css/steps.css">
+    <link rel="stylesheet" href="css/steps/steps.css">
     <link rel="stylesheet" href="css/price.css">
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/evolution.css">
@@ -62,7 +62,7 @@
                 <img src="img/created_site 1.svg" alt="" class="project__img">
             </div>
 
-            Возможно это виды сайтов
+            <!-- Возможно это виды сайтов -->
             <!-- Не совсем уверен, что подходит itention, можно заменить на kind_of_site -->
             <div class="itention">
                 <div class="itention__type itention__lending">
@@ -107,7 +107,9 @@
                         <p class="our_project__text">Интернет-магазин по продаже кондиционеров</p>
                     </div>
                 </div>
-                <button class="our_project__button">Показать больше</button>
+                <form action="portfolio.html" class="our_project__form">
+                    <button href="portfolio.html" class="our_project__button">Показать больше</button>
+                </form>
             </div>
 
             <div class="advantage">
@@ -136,7 +138,7 @@
                 </div>
                 <div class="advantage__list">
                     <h3 class="advantage__desc">Все это входит стандартную стоимость разработки</h3>
-                    <button class="advantage__button">Заказать сайт</button>
+                        <button class="advantage__button">Заказать сайт</button>
                 </div>
             </div>
 
@@ -157,8 +159,10 @@
                         </div>
                         <h3 class="price__desc">Продающий дизайн и продуманный контент увеличивают конверсию сайта и
                             повышают эффективность рекламных кампаний.</h3>
-                        <button class="price__order">Заказать</button>
-                        <a href="" class="price__more_details">Подробнее</a>
+                            <div class="price__wrapper__button">
+                                <button class="price__order">Заказать</button>
+                                <a href="#" class="price__more_details">Подробнее</a>
+                            </div>
                     </div>
 
                     <div class="price__item">
@@ -169,8 +173,10 @@
                         </div>
                         <h3 class="price__desc">Интернет-ресурс для отражения вашего УТП, качественной презентации
                             продукта и выделения среди конкурентов.</h3>
-                        <button class="price__order">Заказать</button>
-                        <a href="" class="price__more_details">Подробнее</a>
+                            <div class="price__wrapper__button">
+                                <button class="price__order">Заказать</button>
+                                <a href="" class="price__more_details">Подробнее</a>
+                            </div>
                     </div>
 
                     <div class="price__item">
@@ -181,8 +187,10 @@
                         </div>
                         <h3 class="price__desc">Удобная навигация, личный кабинет, онлайн-оплата, продуманный дизайн и
                             много другое - всё что нужно для успешных покупок.</h3>
-                        <button class="price__order">Заказать</button>
-                        <a href="" class="price__more_details">Подробнее</a>
+                            <div class="price__wrapper__button">
+                                <button class="price__order">Заказать</button>
+                                <a href="" class="price__more_details">Подробнее</a>
+                            </div>
                     </div>
                 </div>
             </div>

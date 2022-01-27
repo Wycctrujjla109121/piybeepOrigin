@@ -109,3 +109,11 @@
     margin-bottom: 48px;
     color: #fff;
 }
+.feedback__footer::after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #98EC65;
+}

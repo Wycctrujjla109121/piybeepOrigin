@@ -4,6 +4,9 @@
     grid-template-rows: repeat(4, 111px);
     gap: 56px;
     margin-top: 350px;
+    background-image: url(../bgImage/itentionBgLeftBottom.svg);
+    background-repeat: no-repeat;
+    background-position: 50px 450px;
 }
 .itention__label {
     display: flex;

@@ -5,10 +5,11 @@
 }
 .make__title {
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
     font-size: 72px;
     line-height: 92.81px;
     color: #fff;
+    font-family: 'Source Code Pro', monospace;
+
 }
 .make__title::after{
     content: '';
@@ -41,15 +42,29 @@
     font-weight: 400;
     color: #fff;
 }
-.make__label:hover{
+/* .make__label:hover{
     background-image: url(../bgImage/makeLabelBg.svg);
     transition: 1s;
+} */
+.make__wrapper:hover{
+    /* opacity: 0; */
+    animation-name: identifier;
+    animation-duration: 0.5s;
+    background-image: url(../bgImage/makeLabelBg.svg);
 }
 
+@keyframes identifier {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 .make__info {
     align-self: center;
-    width: 835px;
+    min-width: 750px;
 }
 .make__desc {
     font-family: 'Source Code Pro', monospace;
