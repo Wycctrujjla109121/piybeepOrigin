@@ -132,8 +132,6 @@
     line-height: 23px;
     color: #fff;
 
-    border: 1px solid red;
-
     transition: 0.5s;
 }
 .price__more_details:visited:hover{
@@ -141,7 +139,7 @@
 
     transition: 0.5s;
 }
-.arrow{
+.price__arrow{
     margin-left: 10px;
 
     position: relative;
@@ -151,7 +149,7 @@
 
     transition: 0.5s;
 }
-.price__more_details:hover svg{
+.price__more_details:hover .price__arrow{
     display: inline-block;
     
     transition: 0.5s;
