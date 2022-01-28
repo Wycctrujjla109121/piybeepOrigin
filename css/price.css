@@ -132,6 +132,8 @@
     line-height: 23px;
     color: #fff;
 
+    border: 1px solid red;
+
     transition: 0.5s;
 }
 .price__more_details:visited:hover{
@@ -139,7 +141,24 @@
 
     transition: 0.5s;
 }
-.price__more_details::after{
+.arrow{
+    margin-left: 10px;
+
+    position: relative;
+    top: 1px;
+
+    fill: #fff;
+
+    transition: 0.5s;
+}
+.price__more_details:hover svg{
+    display: inline-block;
+    
+    transition: 0.5s;
+
+    fill: #98EC65;
+}
+/* .price__more_details::after{
     content: '';
     display: inline-block;
     align-items: center;
@@ -152,14 +171,13 @@
     background-image: url(../bgImage/priceArrow.svg);
     background-repeat: no-repeat;
 
-    transition: 0.5s;
-}
-.price__more_details:hover::after{
-    background-image: url(../icon/priceMoreDetails.svg);
-    background-repeat: no-repeat;
+    fill: red;
 
     transition: 0.5s;
 }
+.price__more_details:hover::after{
+    transition: 0.5s;
+} */
 .price__more_details:visited{
     transition: 0.5s;
     
