@@ -91,42 +91,27 @@
     line-height: 23.2px;
     color: #fff;
 }
-.our_project__form{
-    align-self: center;
-}
 .our_project__button{
-    width: 278px;
-    height: 27px;
-
-    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-family: 'Source Code Pro', monospace;
-    font-weight: 500;
     font-size: 21px;
     line-height: 27.07px;
+    font-weight: 500;
     color: #fff;
-
     transition: 0.5s;
 }
 .our_project__button:hover{
-    transition: 0.5s;
     color: #98EC65;
 }
-.our_project__button::after{
-    content: '';
-    display: inline-block;
-
-    width: 69px;
-    height: 15px;
-    
+.our_project__arrow__margin{
     margin-left: 20px;
-    
-    background-image: url(../../icon/ourProjectArrow.svg);
-    
+}
+.our_project__arrow__color{
     transition: 0.5s;
 }
-.our_project__button:hover::after{
-    background-image: url(../../icon/ourProjectGreenArrow.svg);
-    
-    transition: 0.5s;
+.our_project__button:hover .our_project__arrow__color{
+    fill: #98EC65;
 }

@@ -147,9 +147,11 @@
                         <p class="our_project__text">Интернет-магазин по продаже кондиционеров</p>
                     </a>
                 </div>
-                <form action="portfolio.html" class="our_project__form">
-                    <button class="our_project__button">Показать больше</button>
-                </form>
+                <a href="portfolio.html" class="our_project__button">Показать больше
+                    <svg class="our_project__arrow__margin" width="69" height="15" viewBox="0 0 69 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="our_project__arrow__color" fill-rule="evenodd" clip-rule="evenodd" d="M61.5876 0.0947266C61.5876 0.0947266 63.5526 2.02778 65.663 4.13897L65.6521 4.14994L68.2077 6.70558C68.3466 6.84724 68.4823 6.98607 68.6143 7.12143C68.6931 7.2023 68.7951 7.30711 68.8741 7.38827L69 7.51505L66.5355 9.97949L66.5377 9.98165L61.6144 14.9049L60.192 13.4824L65.1069 8.56749H0.687988V6.44922H65.1195L60.1763 1.50601L61.5876 0.0947266Z" fill="white"/>
+                        </svg>
+                </a>
             </div>
 
             <!-- наши социальные сети -->
@@ -172,9 +174,9 @@
             <div class="footer">
                 <div class="feedback">
                     <h2 class="feedback__title">Оставьте здесь заявку и мы с вами свяжемся</h2>
-                    <form action="" class="feedback__form">
-                        <input type="text" class="feedback_input" placeholder="Евгений">
-                        <input type="text" class="feedback_input" placeholder="dr.pepper@pepper.com">
+                    <form action="popUpForm.html" class="feedback__form">
+                        <input required type="text" class="feedback_input" placeholder="Евгений">
+                        <input required type="text" class="feedback_input" placeholder="dr.pepper@pepper.com">
                         <div class="feedback__product">
                             <h2 class="feedback__product__label">Выберите продукт:</h2>
                             <nav class="feedback__product__list">
@@ -187,7 +189,7 @@
                                 <li class="feedback__proudct__item">Не знаю</li>
                             </nav>
                         </div>
-                        <button class="feedback__button">Отправить</button>
+                        <button type="submit" class="feedback__button">Отправить</button>
                     </form>
                     <div class="feedback_list">
                         <div class="feedback_item">

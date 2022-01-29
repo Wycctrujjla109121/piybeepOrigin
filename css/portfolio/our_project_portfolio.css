@@ -24,9 +24,10 @@
     background-color: #98EC65;
 }
 .our_project__list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
     
     margin-top: 150px;
@@ -34,6 +35,9 @@
 }
 .our_project__item {
     cursor: pointer;
+
+    width: 100%;
+    max-width: 800px;
 }
 .our_project__wrapper_img {
     max-width: 800;

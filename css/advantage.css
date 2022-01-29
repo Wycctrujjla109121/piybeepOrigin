@@ -3,8 +3,10 @@
     flex-direction: column;
     
     margin-top: 350px;
-    
+    width: calc(100% - 140px);
+    max-width: 1640px;
     height: 822px;
+
 }
 .advantage__grid {
     display: grid;
@@ -62,10 +64,31 @@
 .advantage__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+
+    width: 1153px;
+    height: 96px;
+
+    border-radius: 100px;
+    border: 1px solid #98EC65;
+}
+.advantage__desc{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 
-    min-height: 250px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30.94px;
+    
+    margin-right: 58px;
+
+    width: 706px;
+    height: 31px;
 }
 .advantage__button {
     display: flex;
@@ -73,8 +96,8 @@
     justify-content: center;
     text-align: center;
     
-    width: 600px;
-    height: 156px;
+    width: 322px;
+    height: 95px;
     
     position: relative;
     
@@ -90,58 +113,6 @@
     font-size: 24px;
     color: #000;
 }
-/* Костыльная версия подчёркивание мне кажется как-то можно исправить*/
-.advantage__button::after{
-    content: '';
-
-    display: block;
-
-    position: absolute;
-    
-    bottom: 60px;
-    left: 206px;
-
-    width: 188px;
-    height: 2px;
-
-    border-bottom: 2px solid #000000;
-}
-/* .advantage__button:hover{
-    width: 838px;
-    height: 218px;
-
-    transition: 0.5s;
-}
-.advantage__button:not(:hover){
-    width: 600px;
-    height: 156px;
-
-    transition: 0.5s;
-} */
 .advantage__button:hover{
-    transition: 0.5s;
-    transform: scale(1.3);
-}
-.advantage__button:not(:hover){
-    transform: scale(1);
-}
-
-.advantage__desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-    font-family: 'Source Code Pro', monospace;
-    color: #98EC65;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 30.94px;
-    
-    border-radius: 100px;
-    
-    width: 600px;
-    height: 156px;
-    
-    background-color: #000;
+    transform: scale(1.1);
 }

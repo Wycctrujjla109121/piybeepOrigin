@@ -4,11 +4,15 @@
     align-items: center;
     
     margin-top: 350px;
+
+    width: calc(100% - 140px);
 }
 .reviews__info{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    /* width: 100%; */
 
     height: 288px;
 }
@@ -16,18 +20,40 @@
     width: 93px;
     height: 69px;
 
-    background-image: url(../bgImage/reviewsArrowLeft.svg);
     background-color: transparent;
-    background-repeat: no-repeat;
 }
+.reviews__leftButton__arrow{
+    transition: 0.5s;
+}
+.reviews__btn_left:hover .reviews__leftButton__arrow{
+    stroke: #98EC65;
+}
+.reviews__leftButton__border{
+    transition: 0.5s;
+}
+.reviews__btn_left:hover .reviews__leftButton__border{
+    fill: #98EC65;
+}
+
 .reviews__btn_right {
     width: 97px;
     height: 69px;
 
-    background-image: url(../bgImage/reviewsArrowRight.svg);
     background-color: transparent;
-    background-repeat: no-repeat;
 }
+.reviews__rightButton__arrow{
+    transition: 0.5s;
+}
+.reviews__btn_right:hover .reviews__rightButton__arrow{
+    stroke: #98EC65;
+}
+.reviews__rightButton__border{
+    transition: 0.5s;
+}
+.reviews__btn_right:hover .reviews__rightButton__border{
+    fill: #98EC65;
+}
+
 .reviews__list {
     margin: 0px 148px;
 }
@@ -39,18 +65,6 @@
     color: #fff;
 
     width: 1160px;
-}
-.reviews__desc::after{
-    content: '';
-    display: block;
-    position: relative;
-
-    bottom: -20px;
-
-    width: 180px;
-    height: 2px;
-
-    background-color: #98EC65;
 }
 .reviews__label {
     display: flex;
@@ -89,4 +103,29 @@
 .reviews__add__review:hover{
     transition: 0.5s;
     border-radius: 50px;
+}
+.reviews__items{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.reviews__comment{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+    font-weight: 500;
+    color: #fff;
+
+    position: relative;
+}
+.reviews__comment::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: -4px;
+
+    width: 152px;
+    height: 1px;
+
+    background-color: #98EC65;
 }

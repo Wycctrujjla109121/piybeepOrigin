@@ -1,7 +1,6 @@
 function anim() {
-    const textAnim = document.querySelector('.project__label').textContent;
-    const textAminMass = Array.from(textAnim)
     document.querySelector('.project__label').textContent = '';
+    const textAminMass = Array.from(textAnim)
     k = 0;
     if (k < textAminMass.length)
     {
@@ -15,4 +14,3 @@ function anim() {
         }, 50);
     }
 }
-anim();

@@ -5,8 +5,10 @@
     align-items: center;
 
     height: calc(100vh - 200px);
+    max-height: 1500px;
     
     background-repeat: no-repeat;
+
 }
 .header__bg{
     display: flex;
@@ -14,12 +16,12 @@
     align-items: center;
     justify-content: center;
 
-    width: 1300px;
-    height: 730px;
+    width: 1550px;
+    height: 850px;
 
     background-image: url(../bgImage/piybeepLeftTop.svg), url(../bgImage/piybeepLeftBottom.svg), url(../bgImage/piybeepRightBittom.svg);
     background-repeat: no-repeat;
-    background-position: left top, 53px bottom, right 473px;
+    background-position: left 60px, left bottom, right 550px;
 
     opacity: 0;
 
@@ -53,6 +55,7 @@
     text-transform: uppercase;
     color: #DEDEDE;
     font-weight: 400;
+    text-indent: -9px;
 
     opacity: 0;
 

@@ -1,14 +1,41 @@
 .itention {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: calc(100% - 140px);
+    
+    margin-top: 350px;
+}
+.itention__title{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46.4px;
+    letter-spacing: 0.2em;
+    color: #DCDCDC;
+
+    width: 100%;
+
+    position: relative;
+
+    margin-bottom: 96px;
+}
+.itention__container{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(4, 111px);
     gap: 56px;
 
-    margin-top: 350px;
+    width: 100%;
+    max-width: 1640px;
+
 
     background-image: url(../bgImage/itentionBgLeftBottom.svg);
     background-repeat: no-repeat;
     background-position: 50px 450px;
+
 }
 .itention__label {
     display: flex;
@@ -24,24 +51,26 @@
     transition: 0.5s;
 
     cursor: pointer;
+
+    margin-right: 74px;
 }
-.itention__label:hover{
+.itention__item:hover .itention__label{
     color: #98EC65;
 }
-.itention__label::after{
-    content: '';
-    display: inline-block;
-
-    width: 230px;
-    height: 17px;
-
-    background-image: url(../bgImage/TypeSiteArrowRight.svg);
-    background-repeat: no-repeat;
-
+.itention__item{
+    display: flex;
+    align-items: center;
+}
+.itention__arrow{
     margin-left: 74px;
-
     transition: 0.5s;
 }
+.itention__item:hover .itention__arrow{
+    fill: #98EC65;
+}
+
+
+
 .itention__label:hover::after{
     transition: 0.5s;
 

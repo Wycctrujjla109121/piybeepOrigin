@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
 
+    width: calc(100% - 140px);
+    max-width: 2300px;
+
+
     margin-top: 151px;
 }
 .price__button {
@@ -10,28 +14,50 @@
     justify-content: space-between;
 }
 .price__btn_left{
-    background-image: url(../bgImage/priceRightButton.svg);
     background-color: transparent;
-    background-repeat: no-repeat;
-
-    transform: rotate(180deg);
-    
     width: 95px;
     height: 68px;
 }
+.price__leftButton__arrow{
+    transition: 0.5s;
+}
+.price__btn_left:hover .price__leftButton__arrow{
+    transition: 0.5s;
+
+    stroke:#98EC65;
+}
+.price__leftButton__border{
+    transition: 0.5s;
+}
+.price__btn_left:hover .price__leftButton__border{
+    fill: #98EC65;
+}
+
 .price__btn_right{
-    background: url(../bgImage/priceRightButton.svg);
     background-color: transparent;
-    background-repeat: no-repeat;
-
     width: 95px;
     height: 68px;
 }
+.price__rightButton__arrow{
+    transition: 0.5s;
+}
+.price__btn_right:hover .price__rightButton__arrow{
+    transition: 0.5s;
+
+    stroke:#98EC65;
+}
+.price__rightButton__border{
+    transition: 0.5s;
+}
+.price__btn_right:hover .price__rightButton__border{
+    fill: #98EC65;
+}
+
 .price__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
     margin-top: 81px;
 }
 .price__item {
@@ -149,35 +175,15 @@
 
     transition: 0.5s;
 }
-.price__more_details:hover .price__arrow{
-    display: inline-block;
-    
+.price__more_details:hover .price__arrow{    
     transition: 0.5s;
 
     fill: #98EC65;
 }
-/* .price__more_details::after{
-    content: '';
-    display: inline-block;
-    align-items: center;
-
-    width: 52px;
-    height: 7px;
-
-    margin-left: 22px;
-
-    background-image: url(../bgImage/priceArrow.svg);
-    background-repeat: no-repeat;
-
-    fill: red;
-
-    transition: 0.5s;
-}
-.price__more_details:hover::after{
-    transition: 0.5s;
-} */
 .price__more_details:visited{
     transition: 0.5s;
     
     color: #fff;
 }
+
+

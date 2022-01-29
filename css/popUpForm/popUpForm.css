@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quit {
+    align-items: flex-end;
+    align-content: flex-end;
+    align-self: flex-end;
+}
+.label {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    line-height: 30.94px;
+    font-weight: 500;
+    color: #000;
+}
+.desc {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 23.2px;
+    font-weight: 400;
+    color: #000;
+}
+.svg{
+    margin-top: 55px;
+}

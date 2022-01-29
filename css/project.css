@@ -3,13 +3,16 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: 198px;
-    
-    height: 1128px;
-
     background-image: url(../bgImage/created_siteLeftTop.svg), url(../bgImage/CreateSiteRightBottom.svg);
     background-repeat: no-repeat;
-    background-position: left 250px, right 100%;
+    background-position: 100px 250px, right 100%;
+
+
+    width: 100%;
+
+    overflow: hidden;
+
+    margin-top: 202px;
 }
 .project__label {
     font-family: 'Source Code Pro', monospace;
@@ -19,7 +22,8 @@
     color: #DCDCDC;
 
     width: 922px;
-    height: 279px;
+    min-height: 290px;
+
 }
 .project__label::after{
     content: '';
@@ -37,12 +41,6 @@
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
 }
-.project__img {
-    width: 901px;
-    height: 574px;
-    
-    margin-top: 202px;
-}
 
 @keyframes animalabel {
     0%{
@@ -54,4 +52,245 @@
     100%{
         opacity: 1;
     }
+}
+
+
+
+.project__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    max-width: 2000px;
+    max-height: 2000px;
+
+    position: relative;
+  }
+
+.project__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+}
+.project__collumn {
+  position: relative;
+}
+.project__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px;
+    position: relative;
+}
+.svg__header{
+    position: inherit;
+    top: -2000px;
+  
+    animation-name: header;
+    animation-duration: 4.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes header {
+    30% {
+      top: 0;
+    }
+    70% {
+      top: 0;
+    }
+    100% {
+      top: -3000px;
+    }
+}
+.svg__left__block{
+    position: inherit;
+    left: -3000px;
+
+    animation-name: left;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+}
+@keyframes  left{
+    40%{
+      left: 0px;
+    }
+    80% {
+      left: 0px;
+    }
+    100% {
+      left: -3000px;
+    }
+}
+.svg__right__block{
+    position: inherit;
+    right: -3000px;
+
+    animation-name: right;
+    animation-duration: 3.6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.0s;
+    animation-fill-mode: forwards;
+  }
+@keyframes right {
+    40% {
+      right: 0px;
+    }
+    75% {
+      right: 0px;
+    }
+    100% {
+      right: -3000px;
+    }
+}
+.svg__footer{
+    position: inherit;
+    bottom: -3000px;
+
+    animation-name: footer;
+    animation-duration: 3.6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+} 
+@keyframes footer {
+    40%{
+      bottom: 0px;
+      animation-delay: 4s;
+    }
+    75% {
+      bottom: 0px;
+    }
+    100%{
+      bottom: -3000px;
+    }
+}
+
+.project__wrapper__header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 186px;
+
+  position: relative;
+
+}
+.project__wrapper__content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.project__wrapper__content__left{
+  width: 160px;
+  height: 450px;
+}
+.project__wrapper__content__right{
+  margin-right: 120px;
+}
+
+.svg__header2{
+  position: inherit;
+
+  top: -2000px;
+  
+  animation-name: header;
+  animation-duration: 4s;
+  animation-delay: 4.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.svg__under__header{
+  position: inherit;
+  top: -2000px;
+
+  animation-name: header;
+  animation-duration: 4.3s;
+  animation-delay: 3.8s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.project__wrapper__content{
+  position: relative;
+}
+.project__wrapper__content__left{
+  position: inherit;
+  left: -3000px;
+
+  animation-name: left;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4.6s;
+  animation-fill-mode: forwards;
+}
+.project__wrapper__content__right{
+  position: inherit;
+    right: -3000px;
+
+    animation-name: right;
+    animation-duration: 3.6s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4.8s;
+    animation-fill-mode: forwards;
+}
+
+
+.project__item{
+  display: flex;
+  flex-direction: column;
+
+
+  position: relative;
+}
+.project__header{
+  position: inherit;
+  top: -3000px;
+
+  animation-name: header;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7.4s;
+  animation-fill-mode: forwards;
+}
+
+.project__under__header{
+  position: inherit;
+  top: -3000px;
+
+  animation-name: header;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7.2s;
+  animation-fill-mode: forwards;
+}
+.project__under__footer{
+  position: inherit;
+    bottom: -3000px;
+
+    animation-name: footer;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 7.6s;
+    animation-fill-mode: forwards;
+}
+.project__footer{
+  position: inherit;
+  bottom: -3000px;
+
+  animation-name: footer;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7.8s;
+  animation-fill-mode: forwards;
 }

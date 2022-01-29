@@ -174,7 +174,7 @@
     line-height: 21.94px;
     color: #fff;
 
-    padding: 13px 33px;
+    padding: 13px 34px;
 
     list-style-type: none;
 
@@ -184,9 +184,7 @@
     cursor: pointer;
 }
 .feedback__proudct__item:hover{
-    background-color: #98EC65;
-
     border: 1px solid #98EC65;
     
-    color: #000;
+    color: #98EC65;
 }

@@ -1,7 +1,13 @@
 .piybeep {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     margin-top: 106px;
 
     height: 379px;
+
+    width: 100%;
     
     background-image: url(../../bgImage/studioPiybeepLeftBottom.svg), url(../../bgImage/studioPiybeepRightTop.svg);
     background-repeat: no-repeat;
@@ -11,7 +17,9 @@
     display: flex;
     justify-content: space-between;
 
-    margin-right: 100px;
+    width: calc(100% - 376px);
+    max-width: 2000px;
+
     margin-top: 50px;
     
     background-image: url(../../bgImage/studioPiybeepCenter.svg);
