@@ -8,6 +8,7 @@
     height: 379px;
 
     width: 100%;
+    min-width: 1800px;
     
     background-image: url(../../bgImage/studioPiybeepLeftBottom.svg), url(../../bgImage/studioPiybeepRightTop.svg);
     background-repeat: no-repeat;
@@ -17,8 +18,8 @@
     display: flex;
     justify-content: space-between;
 
-    width: calc(100% - 376px);
-    max-width: 2000px;
+    width: 100%;
+    max-width: 1640px;
 
     margin-top: 50px;
     

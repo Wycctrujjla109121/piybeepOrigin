@@ -10,7 +10,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@400;500;700&family=PT+Mono&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@400;500;700&family=PT+Mono&family=Source+Code+Pro:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/wrapper.css">
     <link rel="stylesheet" href="css/header.css">
@@ -27,10 +29,35 @@
 
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/scrollbar.css">
+
+    <link rel="stylesheet" href="css/popUpForm/popUp.css">
 </head>
 
 <body>
+
+
     <div class="wrapper">
+
+        <div class="eye">
+            <div class="eye__wraper">
+                <button class="eye__quit">
+                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="35.3555" y1="1.35355" x2="0.355445" y2="36.3536" stroke="white" />
+                        <line x1="0.353553" y1="0.646447" x2="35.3536" y2="35.6465" stroke="white" />
+                    </svg>
+                </button>
+                <h2 class="eye__label">Смотрим вашу заявку!</h2>
+                <p class="eye__desc">Скоро мы напишем вам на почту и обговорим проект подробнее.</p>
+                <svg class="eye__svg" width="357" height="155" viewBox="0 0 357 155" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M70.8009 0.271665C69.9452 0.421142 67.1445 0.850888 64.5773 1.22645C54.6972 2.6714 43.0528 7.37744 33.464 13.8012C27.47 17.8166 17.7375 27.5563 13.7251 33.5547C0.685917 53.0465 -3.21195 75.6512 2.67251 97.6543C9.44197 122.968 28.2137 142.861 53.2552 151.256C60.9489 153.836 68.5169 155 77.5729 154.998C98.9331 154.993 117.126 147.443 132.162 132.346C147.523 116.922 154.82 99.2418 154.82 77.4456C154.82 68.4906 153.845 61.9852 151.281 53.8375C142.969 27.4211 119.726 6.72722 92.468 1.47433C87.3683 0.492144 73.8344 -0.259602 70.8009 0.271665ZM270.005 0.59304C262.178 1.60699 253.595 4.24589 245.923 7.99715C223.715 18.8561 208.833 38.1193 203.569 62.8223C202.015 70.1149 202.042 85.3405 203.621 92.7178C206.94 108.215 214.102 121.577 224.821 132.267C239.795 147.2 258.583 155 279.576 155C300.059 155 318.065 147.91 332.792 134.046C347.914 119.809 356.093 101.883 356.906 81.1956C357.494 66.2236 355.381 56.0765 348.994 43.2034C344.646 34.4391 340.617 28.8399 333.86 22.1757C317.37 5.9107 292.873 -2.3691 270.005 0.59304ZM86.782 3.69532C124.484 8.83547 151.749 39.7517 151.837 77.4586C151.885 98.6178 143.904 117.187 128.508 131.731C119.542 140.202 109.956 145.742 98.5404 149.053C89.9885 151.533 85.167 152.068 74.5351 151.718C62.8689 151.333 55.7578 149.666 46.0663 145.042C24.0862 134.557 9.5596 116.018 4.36472 91.8215C2.87042 84.859 2.92145 70.0514 4.46492 62.8223C5.94054 55.9102 8.04725 50.0862 11.5269 43.3018C25.6079 15.8447 56.5295 -0.429632 86.782 3.69532ZM290.498 3.93137C322.499 8.75886 347.632 33.2601 353.134 64.9922C354.604 73.4682 354.029 87.9563 351.904 96.0268C348.264 109.848 342.58 119.656 332.176 130.068C321.805 140.447 312.132 146.073 298.159 149.853C292.563 151.367 291.035 151.508 279.916 151.54C269.107 151.571 267.166 151.414 262.178 150.109C226.784 140.851 203.683 109.758 205.427 73.7217C206.714 47.1166 222.368 23.1442 246.295 11.1362C254.725 6.90597 260.94 5.073 272.447 3.42377C276.316 2.86945 285.096 3.11609 290.498 3.93137ZM36.246 32.2237C26.6491 36.5866 23.9947 49.5824 31.1569 57.1372C35.2334 61.4384 41.9823 63.2627 47.2139 61.4776C52.9372 59.5257 57.3068 54.2635 58.1171 48.3467C58.6157 44.7057 57.0846 39.5144 54.6419 36.5641C50.4845 31.5442 42.0956 29.5642 36.246 32.2237ZM237.716 32.6715C233.656 34.6963 230.988 37.8789 229.722 42.2081C228.491 46.4178 228.935 50.0856 231.173 54.2006C236.25 63.5354 249.175 64.892 256.247 56.832C257.37 55.5521 258.674 53.5827 259.144 52.4554C260.37 49.5201 260.21 43.1025 258.835 40.0756C255.211 32.0904 245.622 28.729 237.716 32.6715Z"
+                        fill="#565163" />
+                </svg>
+                <a class="eye__btn__quit" href="">Хорошо, жду</a>
+            </div>
+        </div>
+
         <div class="content">
             <!-- Главная страница с логотипом сайта -->
             <div class="header">
@@ -57,159 +84,241 @@
             <div class="project">
                 <h2 class="project__label">Создаем конверсионные сайты для стартапов и растущих компаний.</h2>
                 <div class="project__block">
-                    
-                     <div class="project__wrapper">
+                    <div class="project__wrapper">
                         <div class="project__collumn">
-                            <svg class="svg__header" width="900" height="80" viewBox="0 0 2000 157" fill="none"
+                            <svg class="svg__header" width="902" height="71" viewBox="0 0 902 71" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect width="2000" height="157" fill="#B2FFA6" />
-                                <rect x="188" y="62" width="303" height="33" rx="6" fill="#6ACB5A" />
-                                <rect x="545" y="62" width="164" height="33" rx="6" fill="#6ACB5A" />
-                                <rect x="1628" y="49" width="184" height="59" rx="29.5" fill="#6ACB5A" />
+                                <path
+                                    d="M0.373047 27.0376C0.373047 12.1051 12.4782 0 27.4107 0H874.589C889.522 0 901.627 12.1052 901.627 27.0376V70.7484H0.373047V27.0376Z"
+                                    fill="#B2FFA6" />
+                                <path
+                                    d="M85.0909 35.3742C85.0909 31.2678 88.4198 27.9389 92.5262 27.9389H214.196C218.302 27.9389 221.631 31.2678 221.631 35.3742C221.631 39.4806 218.302 42.8096 214.196 42.8096H92.5262C88.4198 42.8096 85.0909 39.4806 85.0909 35.3742Z"
+                                    fill="#6ACB5A" />
+                                <path
+                                    d="M245.965 35.3742C245.965 31.2678 249.294 27.9389 253.4 27.9389H312.432C316.539 27.9389 319.868 31.2678 319.868 35.3742C319.868 39.4806 316.539 42.8096 312.432 42.8096H253.4C249.294 42.8096 245.965 39.4806 245.965 35.3742Z"
+                                    fill="#6ACB5A" />
+                                <path
+                                    d="M733.994 35.3742C733.994 28.0324 739.945 22.0807 747.287 22.0807H803.616C810.957 22.0807 816.909 28.0324 816.909 35.3742C816.909 42.716 810.957 48.6677 803.616 48.6677H747.287C739.945 48.6677 733.994 42.716 733.994 35.3742Z"
+                                    fill="#6ACB5A" />
                             </svg>
+
                             <div class="project__row">
-                                <svg class="svg svg__left__block" width="300" height="300" viewBox="0 0 580 580"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="580" height="580" rx="42" fill="white" />
+                                <svg class="svg__left__block" width="262" height="263" viewBox="0 0 262 263" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.0908813" y="0.965515" width="261.364" height="261.364" rx="18.9263"
+                                        fill="white" />
                                     <mask id="mask0_12_7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                        width="580" height="580">
-                                        <rect width="580" height="580" rx="42" fill="white" />
+                                        width="262" height="263">
+                                        <rect x="0.0908813" y="0.965515" width="261.364" height="261.364" rx="18.9263"
+                                            fill="white" />
                                     </mask>
                                     <g mask="url(#mask0_12_7)">
                                         <path
-                                            d="M545.5 714C529.5 338.8 94.8333 141 -120.5 89L-137.5 517.5C96.8333 739.333 561.5 1089.2 545.5 714Z"
+                                            d="M245.908 322.713C238.698 153.638 42.8254 64.5039 -54.2096 41.0713L-61.8703 234.165C43.7266 334.129 253.118 491.788 245.908 322.713Z"
                                             fill="#A6F4FF" />
                                     </g>
                                 </svg>
-            
-                              <svg class="svg__right__block" width="300" height="350" viewBox="0 0 628 556"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <rect y="487" width="351" height="69" rx="34.5" fill="#FDFFA0" />
-                              <rect width="575" height="18" rx="9" fill="#737373" />
-                              <rect y="61" width="351" height="18" rx="9" fill="#FDFFA0" />
-                              <rect x="399" y="61" width="229" height="18" rx="9" fill="#737373" />
-                              <rect y="122" width="425" height="18" rx="9" fill="#FDFFA0" />
-                              <rect y="244" width="568" height="18" rx="9" fill="#FF8C8C" />
-                              <rect y="305" width="331" height="18" rx="9" fill="#FF8C8C" />
-                              </svg>
+
+                                <svg class="svg__right__block" width="284" height="252" viewBox="0 0 284 252"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.88324" y="220.421" width="158.17" height="31.0933" rx="15.5466"
+                                        fill="#FDFFA0" />
+                                    <rect x="0.883179" y="0.965515" width="259.111" height="8.11129" rx="4.05564"
+                                        fill="#737373" />
+                                    <rect x="0.88324" y="28.4538" width="158.17" height="8.11129" rx="4.05564"
+                                        fill="#FDFFA0" />
+                                    <rect x="180.683" y="28.4538" width="103.194" height="8.11129" rx="4.05564"
+                                        fill="#737373" />
+                                    <rect x="0.88324" y="55.942" width="191.516" height="8.11129" rx="4.05564"
+                                        fill="#FDFFA0" />
+                                    <rect x="0.88324" y="110.918" width="255.956" height="8.11129" rx="4.05564"
+                                        fill="#FF8C8C" />
+                                    <rect x="0.88324" y="138.407" width="149.158" height="8.11129" rx="4.05564"
+                                        fill="#FF8C8C" />
+                                </svg>
+
                             </div>
-            
-                            <svg class="svg__footer" width="900" height="120" viewBox="0 0 1636 246" fill="none"
+                            <svg class="svg__footer" width="738" height="111" viewBox="0 0 738 111" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <rect width="289" height="246" rx="22" fill="#B2FFA6" />
-                                <rect x="445" width="289" height="246" rx="22" fill="#B2FFA6" />
-                                <rect x="890" width="289" height="246" rx="22" fill="#B2FFA6" />
-                                <rect x="1335" width="289" height="246" rx="22" fill="#B2FFA6" />
-                                <rect x="97.5" y="127.262" width="94" height="5.47573" rx="2.73786" fill="black" />
-                                <rect x="141.762" y="177" width="94" height="5.47573" rx="2.73786"
-                                    transform="rotate(-90 141.762 177)" fill="black" />
-                                <rect x="543" y="127.262" width="94" height="5.47573" rx="2.73786" fill="black" />
-                                <rect x="587.262" y="177" width="94" height="5.47573" rx="2.73786"
-                                    transform="rotate(-90 587.262 177)" fill="black" />
-                                <rect x="986" y="127.262" width="94" height="5.47573" rx="2.73786" fill="black" />
-                                <rect x="1030.26" y="177" width="94" height="5.47573" rx="2.73786"
-                                    transform="rotate(-90 1030.26 177)" fill="black" />
-                                <rect x="1433" y="127.262" width="94" height="5.47573" rx="2.73786" fill="black" />
-                                <rect x="1477.26" y="177" width="94" height="5.47573" rx="2.73786"
-                                    transform="rotate(-90 1477.26 177)" fill="black" />
+                                <rect x="0.0908813" y="0.145752" width="130.231" height="110.854" rx="9.91379"
+                                    fill="#B2FFA6" />
+                                <rect x="200.62" y="0.145813" width="130.231" height="110.854" rx="9.91379"
+                                    fill="#B2FFA6" />
+                                <rect x="401.149" y="0.145813" width="130.231" height="110.854" rx="9.91379"
+                                    fill="#B2FFA6" />
+                                <rect x="601.678" y="0.145813" width="130.231" height="110.854" rx="9.91379"
+                                    fill="#B2FFA6" />
+                                <rect x="44.027" y="57.4935" width="42.3589" height="2.46751" rx="1.23376"
+                                    fill="black" />
+                                <rect x="63.9727" y="79.9067" width="42.3589" height="2.46751" rx="1.23376"
+                                    transform="rotate(-90 63.9727 79.9067)" fill="black" />
+                                <rect x="244.781" y="57.4935" width="42.3589" height="2.46751" rx="1.23376"
+                                    fill="black" />
+                                <rect x="264.727" y="79.9067" width="42.3589" height="2.46751" rx="1.23376"
+                                    transform="rotate(-90 264.727 79.9067)" fill="black" />
+                                <rect x="444.409" y="57.4935" width="42.3589" height="2.46751" rx="1.23376"
+                                    fill="black" />
+                                <rect x="464.355" y="79.9067" width="42.3589" height="2.46751" rx="1.23376"
+                                    transform="rotate(-90 464.355 79.9067)" fill="black" />
+                                <rect x="645.839" y="57.4935" width="42.3589" height="2.46751" rx="1.23376"
+                                    fill="black" />
+                                <rect x="665.785" y="79.9067" width="42.3589" height="2.46751" rx="1.23376"
+                                    transform="rotate(-90 665.785 79.9067)" fill="black" />
                             </svg>
                         </div>
                     </div>
                     <div class="project__wrapper">
                         <div class="project__wrapper__header">
-                            <svg class="svg__header2" width="900" height="33" viewBox="0 0 1500 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect y="5" width="164" height="23" rx="6" fill="#555555"/>
-                                <rect x="220" y="5" width="164" height="23" rx="6" fill="#555555"/>
-                                <rect x="440" y="5" width="164" height="23" rx="6" fill="#555555"/>
-                                <rect x="660" y="5" width="164" height="23" rx="6" fill="#555555"/>
-                                <rect x="1336" width="164" height="33" rx="6" fill="#596AFF"/>
+                            <svg class="svg__header2" width="900" height="33" viewBox="0 0 1500 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="5" width="164" height="23" rx="6" fill="#555555" />
+                                <rect x="220" y="5" width="164" height="23" rx="6" fill="#555555" />
+                                <rect x="440" y="5" width="164" height="23" rx="6" fill="#555555" />
+                                <rect x="660" y="5" width="164" height="23" rx="6" fill="#555555" />
+                                <rect x="1336" width="164" height="33" rx="6" fill="#596AFF" />
                             </svg>
-                            
-                            <svg class="svg__under__header" width="300" height="19" viewBox="0 0 587 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="405" height="19" rx="6" fill="#555555"/>
-                                <rect x="448" width="139" height="19" rx="6" fill="#555555"/>
+
+                            <svg class="svg__under__header" width="300" height="19" viewBox="0 0 587 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="405" height="19" rx="6" fill="#555555" />
+                                <rect x="448" width="139" height="19" rx="6" fill="#555555" />
                             </svg>
                         </div>
                         <div class="project__wrapper__content">
-                            <svg class="project__wrapper__content__left" width="322" height="400" viewBox="0 0 322 870" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-85" width="407" height="1007" rx="60" fill="#596AFF"/>
-                                <rect x="64.6362" y="78" width="192.727" height="17.2727" rx="5.45455" fill="white"/>
-                                <rect x="64.6362" y="113.455" width="113.636" height="9.09091" rx="4.54545" fill="white"/>
-                                <rect x="64.6362" y="140.727" width="113.636" height="9.09091" rx="4.54545" fill="white"/>
-                                <rect x="64.6362" y="200.727" width="166.364" height="17.2727" rx="5.45455" fill="white"/>
-                                <rect x="64.6362" y="236.182" width="140.909" height="9.09091" rx="4.54545" fill="white"/>
-                                <rect x="64.6362" y="263.455" width="140.909" height="9.09091" rx="4.54545" fill="white"/>
-                                <rect x="64.6362" y="323.455" width="166.364" height="17.2727" rx="5.45455" fill="white"/>
-                                <rect x="64.6362" y="358.909" width="140.909" height="9.09091" rx="4.54545" fill="white"/>
-                                <rect x="64.6362" y="386.182" width="140.909" height="9.09091" rx="4.54545" fill="white"/>
-                                </svg>
+                            <svg class="project__wrapper__content__left" width="322" height="400" viewBox="0 0 322 870"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-85" width="407" height="1007" rx="60" fill="#596AFF" />
+                                <rect x="64.6362" y="78" width="192.727" height="17.2727" rx="5.45455" fill="white" />
+                                <rect x="64.6362" y="113.455" width="113.636" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                                <rect x="64.6362" y="140.727" width="113.636" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                                <rect x="64.6362" y="200.727" width="166.364" height="17.2727" rx="5.45455"
+                                    fill="white" />
+                                <rect x="64.6362" y="236.182" width="140.909" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                                <rect x="64.6362" y="263.455" width="140.909" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                                <rect x="64.6362" y="323.455" width="166.364" height="17.2727" rx="5.45455"
+                                    fill="white" />
+                                <rect x="64.6362" y="358.909" width="140.909" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                                <rect x="64.6362" y="386.182" width="140.909" height="9.09091" rx="4.54545"
+                                    fill="white" />
+                            </svg>
 
-                                <svg class="project__wrapper__content__right" width="474" height="453" viewBox="0 0 974 813" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="250" height="310" rx="20" fill="white"/>
-                                    <rect x="362" width="250" height="310" rx="20" fill="white"/>
-                                    <rect x="724" width="250" height="310" rx="20" fill="white"/>
-                                    <rect y="444" width="250" height="310" rx="20" fill="white"/>
-                                    <rect x="362" y="444" width="250" height="310" rx="20" fill="white"/>
-                                    <rect x="724" y="444" width="250" height="310" rx="20" fill="white"/>
-                                    <rect y="334" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect y="359" width="124" height="10" rx="5" fill="#555555"/>
-                                    <rect y="778" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect y="803" width="124" height="10" rx="5" fill="#555555"/>
-                                    <rect x="362" y="334" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect x="362" y="359" width="124" height="10" rx="5" fill="#555555"/>
-                                    <rect x="362" y="778" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect x="362" y="803" width="124" height="10" rx="5" fill="#555555"/>
-                                    <rect x="724" y="334" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect x="724" y="359" width="124" height="10" rx="5" fill="#555555"/>
-                                    <rect x="724" y="778" width="205" height="10" rx="5" fill="#555555"/>
-                                    <rect x="724" y="803" width="124" height="10" rx="5" fill="#555555"/>
-                                    </svg>
+                            <svg class="project__wrapper__content__right" width="474" height="453" viewBox="0 0 974 813"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="250" height="310" rx="20" fill="white" />
+                                <rect x="362" width="250" height="310" rx="20" fill="white" />
+                                <rect x="724" width="250" height="310" rx="20" fill="white" />
+                                <rect y="444" width="250" height="310" rx="20" fill="white" />
+                                <rect x="362" y="444" width="250" height="310" rx="20" fill="white" />
+                                <rect x="724" y="444" width="250" height="310" rx="20" fill="white" />
+                                <rect y="334" width="205" height="10" rx="5" fill="#555555" />
+                                <rect y="359" width="124" height="10" rx="5" fill="#555555" />
+                                <rect y="778" width="205" height="10" rx="5" fill="#555555" />
+                                <rect y="803" width="124" height="10" rx="5" fill="#555555" />
+                                <rect x="362" y="334" width="205" height="10" rx="5" fill="#555555" />
+                                <rect x="362" y="359" width="124" height="10" rx="5" fill="#555555" />
+                                <rect x="362" y="778" width="205" height="10" rx="5" fill="#555555" />
+                                <rect x="362" y="803" width="124" height="10" rx="5" fill="#555555" />
+                                <rect x="724" y="334" width="205" height="10" rx="5" fill="#555555" />
+                                <rect x="724" y="359" width="124" height="10" rx="5" fill="#555555" />
+                                <rect x="724" y="778" width="205" height="10" rx="5" fill="#555555" />
+                                <rect x="724" y="803" width="124" height="10" rx="5" fill="#555555" />
+                            </svg>
                         </div>
                     </div>
-                     <div class="project__wrapper">
+                    <div class="project__wrapper">
                         <div class="project__item">
 
-                            <svg class="project__header" width= "680" height="106" viewBox="0 0 1680 206" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 27C0 12.0883 12.0883 0 27 0H297C311.912 0 324 12.0883 324 27V57C324 71.9117 311.912 84 297 84H27C12.0883 84 0 71.9117 0 57V27Z" fill="#FFC0CB"/>
-                                <path d="M1630 42C1630 28.1929 1641.19 17 1655 17C1668.81 17 1680 28.1929 1680 42C1680 55.8071 1668.81 67 1655 67C1641.19 67 1630 55.8071 1630 42Z" fill="#FFC0CB"/>
-                                <path d="M1530 42C1530 28.1929 1541.19 17 1555 17C1568.81 17 1580 28.1929 1580 42C1580 55.8071 1568.81 67 1555 67C1541.19 67 1530 55.8071 1530 42Z" fill="#FFC0CB"/>
-                                <path d="M0 197C0 192.029 4.02944 188 9 188H270C274.971 188 279 192.029 279 197C279 201.971 274.971 206 270 206H9.00001C4.02945 206 0 201.971 0 197Z" fill="#666666"/>
-                                <path d="M389 197C389 192.029 393.029 188 398 188H589C593.971 188 598 192.029 598 197C598 201.971 593.971 206 589 206H398C393.029 206 389 201.971 389 197Z" fill="#666666"/>
-                                <path d="M708 197C708 192.029 712.029 188 717 188H915C919.971 188 924 192.029 924 197C924 201.971 919.971 206 915 206H717C712.029 206 708 201.971 708 197Z" fill="#666666"/>
-                                <path d="M1034 197C1034 192.029 1038.03 188 1043 188H1241C1245.97 188 1250 192.029 1250 197C1250 201.971 1245.97 206 1241 206H1043C1038.03 206 1034 201.971 1034 197Z" fill="#666666"/>
+                            <svg class="project__header" width="680" height="106" viewBox="0 0 1680 206" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 27C0 12.0883 12.0883 0 27 0H297C311.912 0 324 12.0883 324 27V57C324 71.9117 311.912 84 297 84H27C12.0883 84 0 71.9117 0 57V27Z"
+                                    fill="#FFC0CB" />
+                                <path
+                                    d="M1630 42C1630 28.1929 1641.19 17 1655 17C1668.81 17 1680 28.1929 1680 42C1680 55.8071 1668.81 67 1655 67C1641.19 67 1630 55.8071 1630 42Z"
+                                    fill="#FFC0CB" />
+                                <path
+                                    d="M1530 42C1530 28.1929 1541.19 17 1555 17C1568.81 17 1580 28.1929 1580 42C1580 55.8071 1568.81 67 1555 67C1541.19 67 1530 55.8071 1530 42Z"
+                                    fill="#FFC0CB" />
+                                <path
+                                    d="M0 197C0 192.029 4.02944 188 9 188H270C274.971 188 279 192.029 279 197C279 201.971 274.971 206 270 206H9.00001C4.02945 206 0 201.971 0 197Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M389 197C389 192.029 393.029 188 398 188H589C593.971 188 598 192.029 598 197C598 201.971 593.971 206 589 206H398C393.029 206 389 201.971 389 197Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M708 197C708 192.029 712.029 188 717 188H915C919.971 188 924 192.029 924 197C924 201.971 919.971 206 915 206H717C712.029 206 708 201.971 708 197Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M1034 197C1034 192.029 1038.03 188 1043 188H1241C1245.97 188 1250 192.029 1250 197C1250 201.971 1245.97 206 1241 206H1043C1038.03 206 1034 201.971 1034 197Z"
+                                    fill="#666666" />
                             </svg>
 
-                            <svg class="project__under__header" width="680" height="160" viewBox="0 0 1680 340" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 45C0 20.1472 20.1472 0 45 0H1635C1659.85 0 1680 20.1472 1680 45V295C1680 319.853 1659.85 340 1635 340H45C20.1472 340 0 319.853 0 295V45Z" fill="white"/>
-                                <mask id="mask0_21_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1680" height="340">
-                                    <path d="M0 45C0 20.1472 20.1472 0 45 0H1635C1659.85 0 1680 20.1472 1680 45V295C1680 319.853 1659.85 340 1635 340H45C20.1472 340 0 319.853 0 295V45Z" fill="white"/>
+                            <svg class="project__under__header" width="680" height="160" viewBox="0 0 1680 340"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 45C0 20.1472 20.1472 0 45 0H1635C1659.85 0 1680 20.1472 1680 45V295C1680 319.853 1659.85 340 1635 340H45C20.1472 340 0 319.853 0 295V45Z"
+                                    fill="white" />
+                                <mask id="mask0_21_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="1680" height="340">
+                                    <path
+                                        d="M0 45C0 20.1472 20.1472 0 45 0H1635C1659.85 0 1680 20.1472 1680 45V295C1680 319.853 1659.85 340 1635 340H45C20.1472 340 0 319.853 0 295V45Z"
+                                        fill="white" />
                                 </mask>
                                 <g mask="url(#mask0_21_5)">
-                                    <path d="M519.015 121.323C662.609 -92.5406 288.038 -199.335 82.8034 -226L-160 416C6.50697 406.884 375.42 335.186 519.015 121.323Z" fill="#FFC0CB"/>
+                                    <path
+                                        d="M519.015 121.323C662.609 -92.5406 288.038 -199.335 82.8034 -226L-160 416C6.50697 406.884 375.42 335.186 519.015 121.323Z"
+                                        fill="#FFC0CB" />
                                 </g>
-                                <path d="M213 249C213 238.507 221.507 230 232 230H392C402.493 230 411 238.507 411 249V281C411 291.493 402.493 300 392 300H232C221.507 300 213 291.493 213 281V249Z" fill="#161616"/>
-                                <path d="M262 265C262 262.239 264.239 260 267 260H356C358.761 260 361 262.239 361 265V265C361 267.761 358.761 270 356 270H267C264.239 270 262 267.761 262 265V265Z" fill="white"/>
-                                <path d="M213 53C213 50.2386 215.239 48 218 48H409C411.761 48 414 50.2386 414 53V53C414 55.7614 411.761 58 409 58H218C215.239 58 213 55.7614 213 53V53Z" fill="white"/>
-                                <path d="M213 83C213 80.2386 215.239 78 218 78H376C378.761 78 381 80.2386 381 83V83C381 85.7614 378.761 88 376 88H218C215.239 88 213 85.7614 213 83V83Z" fill="white"/>
-                                <path d="M213 113C213 110.239 215.239 108 218 108H446C448.761 108 451 110.239 451 113V113C451 115.761 448.761 118 446 118H218C215.239 118 213 115.761 213 113V113Z" fill="white"/>
-                                <path d="M213 143C213 140.239 215.239 138 218 138H336C338.761 138 341 140.239 341 143V143C341 145.761 338.761 148 336 148H218C215.239 148 213 145.761 213 143V143Z" fill="white"/>
-                                <path d="M694 110C694 99.5066 702.507 91 713 91H1511C1521.49 91 1530 99.5066 1530 110V229C1530 239.493 1521.49 248 1511 248H713C702.507 248 694 239.493 694 229V110Z" fill="#C0D9FF"/>
+                                <path
+                                    d="M213 249C213 238.507 221.507 230 232 230H392C402.493 230 411 238.507 411 249V281C411 291.493 402.493 300 392 300H232C221.507 300 213 291.493 213 281V249Z"
+                                    fill="#161616" />
+                                <path
+                                    d="M262 265C262 262.239 264.239 260 267 260H356C358.761 260 361 262.239 361 265V265C361 267.761 358.761 270 356 270H267C264.239 270 262 267.761 262 265V265Z"
+                                    fill="white" />
+                                <path
+                                    d="M213 53C213 50.2386 215.239 48 218 48H409C411.761 48 414 50.2386 414 53V53C414 55.7614 411.761 58 409 58H218C215.239 58 213 55.7614 213 53V53Z"
+                                    fill="white" />
+                                <path
+                                    d="M213 83C213 80.2386 215.239 78 218 78H376C378.761 78 381 80.2386 381 83V83C381 85.7614 378.761 88 376 88H218C215.239 88 213 85.7614 213 83V83Z"
+                                    fill="white" />
+                                <path
+                                    d="M213 113C213 110.239 215.239 108 218 108H446C448.761 108 451 110.239 451 113V113C451 115.761 448.761 118 446 118H218C215.239 118 213 115.761 213 113V113Z"
+                                    fill="white" />
+                                <path
+                                    d="M213 143C213 140.239 215.239 138 218 138H336C338.761 138 341 140.239 341 143V143C341 145.761 338.761 148 336 148H218C215.239 148 213 145.761 213 143V143Z"
+                                    fill="white" />
+                                <path
+                                    d="M694 110C694 99.5066 702.507 91 713 91H1511C1521.49 91 1530 99.5066 1530 110V229C1530 239.493 1521.49 248 1511 248H713C702.507 248 694 239.493 694 229V110Z"
+                                    fill="#C0D9FF" />
                             </svg>
 
-                            <svg class="project__under__footer" width="337" height="122" viewBox="0 0 837 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 9C0 4.02944 2.94055 0 6.5679 0H525.432C529.059 0 532 4.02944 532 9C532 13.9706 529.059 18 525.432 18H6.5679C2.94055 18 0 13.9706 0 9Z" fill="#666666"/>
-                                <path d="M0 61C0 56.0294 3.46012 52 7.7284 52H618.272C622.54 52 626 56.0294 626 61V61C626 65.9706 622.54 70 618.272 70H7.72839C3.46012 70 0 65.9706 0 61V61Z" fill="#666666"/>
-                                <path d="M0 113C0 108.029 4.62639 104 10.3333 104H826.667C832.374 104 837 108.029 837 113V113C837 117.971 832.374 122 826.667 122H10.3333C4.62638 122 0 117.971 0 113V113Z" fill="#666666"/>
-                                </svg>
-                                
-                                <svg class="project__footer" width="690" height="109" viewBox="0 0 1379 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="244" height="189" rx="20" fill="#C0D9FF"/>
-                                    <rect x="378.333" width="244" height="189" rx="20" fill="#C0D9FF"/>
-                                    <rect x="756.667" width="244" height="189" rx="20" fill="#C0D9FF"/>
-                                    <rect x="1135" width="244" height="189" rx="20" fill="#C0D9FF"/>
-                                    </svg>
+                            <svg class="project__under__footer" width="337" height="122" viewBox="0 0 837 122"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 9C0 4.02944 2.94055 0 6.5679 0H525.432C529.059 0 532 4.02944 532 9C532 13.9706 529.059 18 525.432 18H6.5679C2.94055 18 0 13.9706 0 9Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M0 61C0 56.0294 3.46012 52 7.7284 52H618.272C622.54 52 626 56.0294 626 61V61C626 65.9706 622.54 70 618.272 70H7.72839C3.46012 70 0 65.9706 0 61V61Z"
+                                    fill="#666666" />
+                                <path
+                                    d="M0 113C0 108.029 4.62639 104 10.3333 104H826.667C832.374 104 837 108.029 837 113V113C837 117.971 832.374 122 826.667 122H10.3333C4.62638 122 0 117.971 0 113V113Z"
+                                    fill="#666666" />
+                            </svg>
+
+                            <svg class="project__footer" width="690" height="109" viewBox="0 0 1379 189" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="244" height="189" rx="20" fill="#C0D9FF" />
+                                <rect x="378.333" width="244" height="189" rx="20" fill="#C0D9FF" />
+                                <rect x="756.667" width="244" height="189" rx="20" fill="#C0D9FF" />
+                                <rect x="1135" width="244" height="189" rx="20" fill="#C0D9FF" />
+                            </svg>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
@@ -219,46 +328,58 @@
             <div class="itention">
                 <h2 class="itention__title title">мы делаем</h2>
                 <div class="itention__container">
-                <a href="services.html" class="itention__type itention__lending">
-                    <div class="itention__item">
-                        <h3 class="itention__label">Лендинги</h3>
-                        <svg width="227" height="15" viewBox="0 0 227 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z" fill="white"/>
+                    <a href="services.html" class="itention__type itention__lending">
+                        <div class="itention__item">
+                            <h3 class="itention__label">Лендинги</h3>
+                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
+                                    fill="white" />
                             </svg>
-                    </div>
-                    <p class="itention__text">с макетинговой обработкой</p>
-                </a>
+                        </div>
+                        <p class="itention__text">с макетинговой обработкой</p>
+                    </a>
 
-                <a href="services.html" class="itention__type itention__web">
-                    <div class="itention__item">
-                        <h3 class="itention__label">Веб-приложения</h3>
-                        <svg width="227" height="15" viewBox="0 0 227 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z" fill="white"/>
+                    <a href="services.html" class="itention__type itention__web">
+                        <div class="itention__item">
+                            <h3 class="itention__label">Веб-приложения</h3>
+                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
+                                    fill="white" />
                             </svg>
-                    </div>
-                    <p class="itention__text">с безупречной работой ресурса</p>
-                </a>
+                        </div>
+                        <p class="itention__text">с безупречной работой ресурса</p>
+                    </a>
 
-                <a href="services.html" class="itention__type itention__online_store">
-                    <div class="itention__item">
-                        <h3 class="itention__label">Интернет-магазины</h3>
-                        <svg width="227" height="15" viewBox="0 0 227 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z" fill="white"/>
-                        </svg>
-                    </div>
-                    <p class="itention__text">с удобным интерфейсом для покупок</p>
-                </a>
+                    <a href="services.html" class="itention__type itention__online_store">
+                        <div class="itention__item">
+                            <h3 class="itention__label">Интернет-магазины</h3>
+                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="itention__text">с удобным интерфейсом для покупок</p>
+                    </a>
 
-                <a href="services.html" class="itention__type itention__corporate_site">
-                    <div class="itention__item">
-                        <h3 class="itention__label">Корпоративные сайты</h3>
-                        <svg width="227" height="15" viewBox="0 0 227 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z" fill="white"/>
-                        </svg>
-                    </div>
-                    <p class="itention__text">с исключительными конкурентными преимуществами</p>
-                </a>
-            </div>
+                    <a href="services.html" class="itention__type itention__corporate_site">
+                        <div class="itention__item">
+                            <h3 class="itention__label">Корпоративные сайты</h3>
+                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="itention__text">с исключительными конкурентными преимуществами</p>
+                    </a>
+                </div>
             </div>
 
             <!-- Наши проекты -->
@@ -282,9 +403,12 @@
                     </a>
                 </div>
                 <a href="portfolio.html" class="our_project__button">Показать больше
-                    <svg class="our_project__arrow__margin" width="69" height="15" viewBox="0 0 69 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="our_project__arrow__color" fill-rule="evenodd" clip-rule="evenodd" d="M61.5876 0.0947266C61.5876 0.0947266 63.5526 2.02778 65.663 4.13897L65.6521 4.14994L68.2077 6.70558C68.3466 6.84724 68.4823 6.98607 68.6143 7.12143C68.6931 7.2023 68.7951 7.30711 68.8741 7.38827L69 7.51505L66.5355 9.97949L66.5377 9.98165L61.6144 14.9049L60.192 13.4824L65.1069 8.56749H0.687988V6.44922H65.1195L60.1763 1.50601L61.5876 0.0947266Z" fill="white"/>
-                        </svg>
+                    <svg class="our_project__arrow__margin" width="69" height="15" viewBox="0 0 69 15" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="our_project__arrow__color" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M61.5876 0.0947266C61.5876 0.0947266 63.5526 2.02778 65.663 4.13897L65.6521 4.14994L68.2077 6.70558C68.3466 6.84724 68.4823 6.98607 68.6143 7.12143C68.6931 7.2023 68.7951 7.30711 68.8741 7.38827L69 7.51505L66.5355 9.97949L66.5377 9.98165L61.6144 14.9049L60.192 13.4824L65.1069 8.56749H0.687988V6.44922H65.1195L60.1763 1.50601L61.5876 0.0947266Z"
+                            fill="white" />
+                    </svg>
                 </a>
             </div>
 
@@ -326,16 +450,26 @@
             <div class="price">
                 <div class="price__button">
                     <button class="price__btn_left">
-                        <svg width="93" height="67" viewBox="0 0 93 67" fill="transparent" xmlns="http://www.w3.org/2000/svg">
-                            <path class="price__leftButton__arrow" d="M93 1H76L33 1C24.5131 1 16.3737 4.4241 10.3726 10.519C4.37142 16.614 1 24.8805 1 33.5C0.999999 42.1195 4.37141 50.386 10.3726 56.481C16.3737 62.5759 24.5131 66 33 66C33 66 59.2075 66 76 66H93" stroke="white" stroke-width="2"/>
-                            <path class="price__leftButton__border" fill-rule="evenodd" clip-rule="evenodd" d="M43.4126 41.8101C43.4126 41.8101 41.4475 39.877 39.3371 37.7658L39.348 37.7548L36.7924 35.1992C36.6535 35.0575 36.5178 34.9187 36.3859 34.7834C36.3088 34.7043 36.2097 34.6024 36.1315 34.5221L36 34.3897L38.4645 31.9253L38.4623 31.9231L43.3856 26.9999L44.808 28.4224L39.8931 33.3373L93 33.3373V35.4556L39.8806 35.4556L44.8238 40.3988L43.4126 41.8101Z" fill="white"/>
-                            </svg>
+                        <svg width="93" height="67" viewBox="0 0 93 67" fill="transparent"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="price__leftButton__arrow"
+                                d="M93 1H76L33 1C24.5131 1 16.3737 4.4241 10.3726 10.519C4.37142 16.614 1 24.8805 1 33.5C0.999999 42.1195 4.37141 50.386 10.3726 56.481C16.3737 62.5759 24.5131 66 33 66C33 66 59.2075 66 76 66H93"
+                                stroke="white" stroke-width="2" />
+                            <path class="price__leftButton__border" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M43.4126 41.8101C43.4126 41.8101 41.4475 39.877 39.3371 37.7658L39.348 37.7548L36.7924 35.1992C36.6535 35.0575 36.5178 34.9187 36.3859 34.7834C36.3088 34.7043 36.2097 34.6024 36.1315 34.5221L36 34.3897L38.4645 31.9253L38.4623 31.9231L43.3856 26.9999L44.808 28.4224L39.8931 33.3373L93 33.3373V35.4556L39.8806 35.4556L44.8238 40.3988L43.4126 41.8101Z"
+                                fill="white" />
+                        </svg>
                     </button>
                     <button class="price__btn_right">
-                        <svg class="price__rightButton__svg" width="95" height="69" viewBox="0 0 95 69" fill="transparent" xmlns="http://www.w3.org/2000/svg">
-                            <path class="price__rightButton__arrow" d="M0.649902 67H17.77H61.0738C69.6207 67 77.8176 63.5759 83.8611 57.481C89.9047 51.386 93.2999 43.1195 93.2999 34.5C93.2999 25.8805 89.9047 17.614 83.8611 11.519C77.8176 5.4241 69.6207 2 61.0738 2C61.0738 2 34.6812 2 17.77 2H0.649902" stroke="white" stroke-width="3"/>
-                            <path class="price__rightButton__border" fill-rule="evenodd" clip-rule="evenodd" d="M50.5883 27C50.5883 27 52.5672 28.933 54.6925 31.0442L54.6814 31.0553L57.265 33.6208C57.4014 33.759 57.5349 33.8945 57.6646 34.0267C57.7505 34.1142 57.8638 34.2298 57.9454 34.3131L58.0527 34.4204L55.5709 36.8848L55.5731 36.887L50.615 41.8102L49.1825 40.3877L54.1322 35.4728H0.649902V33.3545H54.1451L49.167 28.4113L50.5883 27Z" fill="white"/>
-                            </svg>
+                        <svg class="price__rightButton__svg" width="95" height="69" viewBox="0 0 95 69"
+                            fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                            <path class="price__rightButton__arrow"
+                                d="M0.649902 67H17.77H61.0738C69.6207 67 77.8176 63.5759 83.8611 57.481C89.9047 51.386 93.2999 43.1195 93.2999 34.5C93.2999 25.8805 89.9047 17.614 83.8611 11.519C77.8176 5.4241 69.6207 2 61.0738 2C61.0738 2 34.6812 2 17.77 2H0.649902"
+                                stroke="white" stroke-width="3" />
+                            <path class="price__rightButton__border" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M50.5883 27C50.5883 27 52.5672 28.933 54.6925 31.0442L54.6814 31.0553L57.265 33.6208C57.4014 33.759 57.5349 33.8945 57.6646 34.0267C57.7505 34.1142 57.8638 34.2298 57.9454 34.3131L58.0527 34.4204L55.5709 36.8848L55.5731 36.887L50.615 41.8102L49.1825 40.3877L54.1322 35.4728H0.649902V33.3545H54.1451L49.167 28.4113L50.5883 27Z"
+                                fill="white" />
+                        </svg>
                     </button>
                 </div>
                 <div class="price__list">
@@ -405,10 +539,15 @@
             <div class="reviews">
                 <div class="reviews__info">
                     <button class="reviews__btn_left">
-                        <svg width="93" height="67" viewBox="0 0 93 67" fill="transparent" xmlns="http://www.w3.org/2000/svg">
-                            <path class="reviews__leftButton__arrow" d="M93 1H76L33 1C24.5131 1 16.3737 4.4241 10.3726 10.519C4.37142 16.614 1 24.8805 1 33.5C0.999999 42.1195 4.37141 50.386 10.3726 56.481C16.3737 62.5759 24.5131 66 33 66C33 66 59.2075 66 76 66H93" stroke="white" stroke-width="2"/>
-                            <path class="reviews__leftButton__border" fill-rule="evenodd" clip-rule="evenodd" d="M43.4126 41.8101C43.4126 41.8101 41.4475 39.877 39.3371 37.7658L39.348 37.7548L36.7924 35.1992C36.6535 35.0575 36.5178 34.9187 36.3859 34.7834C36.3088 34.7043 36.2097 34.6024 36.1315 34.5221L36 34.3897L38.4645 31.9253L38.4623 31.9231L43.3856 26.9999L44.808 28.4224L39.8931 33.3373L93 33.3373V35.4556L39.8806 35.4556L44.8238 40.3988L43.4126 41.8101Z" fill="white"/>
-                            </svg>
+                        <svg width="93" height="67" viewBox="0 0 93 67" fill="transparent"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="reviews__leftButton__arrow"
+                                d="M93 1H76L33 1C24.5131 1 16.3737 4.4241 10.3726 10.519C4.37142 16.614 1 24.8805 1 33.5C0.999999 42.1195 4.37141 50.386 10.3726 56.481C16.3737 62.5759 24.5131 66 33 66C33 66 59.2075 66 76 66H93"
+                                stroke="white" stroke-width="2" />
+                            <path class="reviews__leftButton__border" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M43.4126 41.8101C43.4126 41.8101 41.4475 39.877 39.3371 37.7658L39.348 37.7548L36.7924 35.1992C36.6535 35.0575 36.5178 34.9187 36.3859 34.7834C36.3088 34.7043 36.2097 34.6024 36.1315 34.5221L36 34.3897L38.4645 31.9253L38.4623 31.9231L43.3856 26.9999L44.808 28.4224L39.8931 33.3373L93 33.3373V35.4556L39.8806 35.4556L44.8238 40.3988L43.4126 41.8101Z"
+                                fill="white" />
+                        </svg>
                     </button>
                     <div class="reviews__list">
                         <h3 class="reviews__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
@@ -419,18 +558,23 @@
                             sit
                             amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
                             praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi</h3>
-                            <div class="reviews__items">
-                                <h3 class="reviews__label">Станислав Константинов 
-                                    <span class="reviews__text">Moscow Cold</span>
-                                </h3>
-                                <a class="reviews__comment" href="">Оставить отзыв</a>
-                            </div>
+                        <div class="reviews__items">
+                            <h3 class="reviews__label">Станислав Константинов
+                                <span class="reviews__text">Moscow Cold</span>
+                            </h3>
+                            <a class="reviews__comment" href="">Оставить отзыв</a>
+                        </div>
                     </div>
                     <button class="reviews__btn_right">
-                        <svg width="95" height="69" viewBox="0 0 95 69" fill="transparent" xmlns="http://www.w3.org/2000/svg">
-                            <path class="reviews__rightButton__arrow" d="M0.649902 67H17.77H61.0738C69.6207 67 77.8176 63.5759 83.8611 57.481C89.9047 51.386 93.2999 43.1195 93.2999 34.5C93.2999 25.8805 89.9047 17.614 83.8611 11.519C77.8176 5.4241 69.6207 2 61.0738 2C61.0738 2 34.6812 2 17.77 2H0.649902" stroke="white" stroke-width="3"/>
-                            <path class="reviews__rightButton__border" fill-rule="evenodd" clip-rule="evenodd" d="M50.5883 27C50.5883 27 52.5672 28.933 54.6925 31.0442L54.6814 31.0553L57.265 33.6208C57.4014 33.759 57.5349 33.8945 57.6646 34.0267C57.7505 34.1142 57.8638 34.2298 57.9454 34.3131L58.0527 34.4204L55.5709 36.8848L55.5731 36.887L50.615 41.8102L49.1825 40.3877L54.1322 35.4728H0.649902V33.3545H54.1451L49.167 28.4113L50.5883 27Z" fill="white"/>
-                            </svg>
+                        <svg width="95" height="69" viewBox="0 0 95 69" fill="transparent"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="reviews__rightButton__arrow"
+                                d="M0.649902 67H17.77H61.0738C69.6207 67 77.8176 63.5759 83.8611 57.481C89.9047 51.386 93.2999 43.1195 93.2999 34.5C93.2999 25.8805 89.9047 17.614 83.8611 11.519C77.8176 5.4241 69.6207 2 61.0738 2C61.0738 2 34.6812 2 17.77 2H0.649902"
+                                stroke="white" stroke-width="3" />
+                            <path class="reviews__rightButton__border" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M50.5883 27C50.5883 27 52.5672 28.933 54.6925 31.0442L54.6814 31.0553L57.265 33.6208C57.4014 33.759 57.5349 33.8945 57.6646 34.0267C57.7505 34.1142 57.8638 34.2298 57.9454 34.3131L58.0527 34.4204L55.5709 36.8848L55.5731 36.887L50.615 41.8102L49.1825 40.3877L54.1322 35.4728H0.649902V33.3545H54.1451L49.167 28.4113L50.5883 27Z"
+                                fill="white" />
+                        </svg>
                     </button>
                 </div>
             </div>
@@ -439,30 +583,32 @@
             <div class="evolution">
                 <h2 class="evolution__title">Развивайте свой бизнес эффективнее с piybeep</h2>
             </div>
-
         </div>
 
         <!-- Подвал с feedback-ом -->
         <div class="footer">
             <div class="feedback">
-                <h2 class="feedback__title">Оставьте здесь заявку и мы с вами свяжемся</h2>
-                <form action="popUpForm.html" class="feedback__form">
-                    <input required type="text" class="feedback_input" placeholder="Евгений">
-                    <input required type="text" class="feedback_input" placeholder="dr.pepper@pepper.com">
+                <h2 class="feedback__title__main__portfolio">Оставьте здесь заявку и мы с вами свяжемся</h2>
+                <form action="#" class="feedback__form">
+                    <input required type="text" class="feedback_input feedback__input__name" placeholder="Евгений">
+                    <input required type="text" class="feedback_input feedback__input__email"
+                        placeholder="dr.pepper@pepper.com">
                     <div class="feedback__product">
                         <h2 class="feedback__product__label">Выберите продукт:</h2>
-                        <nav class="feedback__product__list">
-                            <li class="feedback__proudct__item">Леднинг</li>
-                            <li class="feedback__proudct__item">Интернет-магазин</li>
-                            <li class="feedback__proudct__item">Корпоративный сайт</li>
-                            <li class="feedback__proudct__item">Веб-приложение</li>
-                            <li class="feedback__proudct__item">Другое</li>
-                            <li class="feedback__proudct__item">Консультация</li>
-                            <li class="feedback__proudct__item">Не знаю</li>
-                        </nav>
+                        <div class="feedback__product__item__btn">
+                            <nav class="feedback__product__list">
+                                <li class="feedback__proudct__item">Леднинг</li>
+                                <li class="feedback__proudct__item">Интернет-магазин</li>
+                                <li class="feedback__proudct__item">Корпоративный сайт</li>
+                                <li class="feedback__proudct__item">Веб-приложение</li>
+                                <li class="feedback__proudct__item">Другое</li>
+                                <li class="feedback__proudct__item">Не знаю</li>
+                            </nav>
+                            <button type="submit" class="feedback__button">Отправить</button>
+                        </div>
                     </div>
-                    <button type="submit" class="feedback__button">Отправить</button>
                 </form>
+
                 <div class="feedback_list">
                     <div class="feedback_item">
                         <a href="index.html" class="feedback__home feedback__link">главная</a>
@@ -481,6 +627,7 @@
     </div>
     <script src="js/mass.js"></script>
     <script src="js/intersection.js"></script>
+    <script src="js/popUpVisibility.js"></script>
 </body>
 
 </html>

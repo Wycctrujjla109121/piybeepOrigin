@@ -4,9 +4,7 @@ const options = {
 }
 const callback = function(entries, observer){
     entries.forEach(entry => {
-
         anim()
-
     });
 
 }

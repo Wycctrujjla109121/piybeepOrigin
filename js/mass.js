@@ -11,6 +11,6 @@ function anim() {
                 k++;
             }
             else{clearInterval(interval)}
-        }, 50);
+        }, 75);
     }
 }

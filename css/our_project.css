@@ -3,8 +3,8 @@
     flex-direction: column;
     flex-wrap: wrap;
 
-        width: calc(100% - 140px);
-    min-width: 100px;
+        width: 100%;
+        max-width: 1640px;
 
     margin: 350px auto 0px auto;
 }

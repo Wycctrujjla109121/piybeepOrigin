@@ -94,26 +94,29 @@
                 </div>
 
                 <!-- Подвал с feedback-ом -->
-                <div class="footer">
+                <div class="footer__studio__services">
                     <div class="feedback">
                         <h2 class="feedback__title">Оставьте здесь заявку и мы с вами свяжемся</h2>
-                        <form action="popUpForm.html" class="feedback__form">
-                            <input required type="text" class="feedback_input" placeholder="Евгений">
-                            <input required type="text" class="feedback_input" placeholder="dr.pepper@pepper.com">
+                        <form action="#" class="feedback__form">
+                            <input required type="text" class="feedback_input feedback__input__name" placeholder="Евгений">
+                            <input required type="text" class="feedback_input feedback__input__email"
+                                placeholder="dr.pepper@pepper.com">
                             <div class="feedback__product">
                                 <h2 class="feedback__product__label">Выберите продукт:</h2>
-                                <nav class="feedback__product__list">
-                                    <li class="feedback__proudct__item">Леднинг</li>
-                                    <li class="feedback__proudct__item">Интернет-магазин</li>
-                                    <li class="feedback__proudct__item">Корпоративный сайт</li>
-                                    <li class="feedback__proudct__item">Веб-приложение</li>
-                                    <li class="feedback__proudct__item">Другое</li>
-                                    <li class="feedback__proudct__item">Консультация</li>
-                                    <li class="feedback__proudct__item">Не знаю</li>
-                                </nav>
+                                <div class="feedback__product__item__btn">
+                                    <nav class="feedback__product__list">
+                                        <li class="feedback__proudct__item">Леднинг</li>
+                                        <li class="feedback__proudct__item">Интернет-магазин</li>
+                                        <li class="feedback__proudct__item">Корпоративный сайт</li>
+                                        <li class="feedback__proudct__item">Веб-приложение</li>
+                                        <li class="feedback__proudct__item">Другое</li>
+                                        <li class="feedback__proudct__item">Не знаю</li>
+                                    </nav>
+                                    <button type="submit" class="feedback__button">Отправить</button>
+                                </div>
                             </div>
-                            <button type="submit" class="feedback__button">Отправить</button>
                         </form>
+        
                         <div class="feedback_list">
                             <div class="feedback_item">
                                 <a href="index.html" class="feedback__home feedback__link">главная</a>
