@@ -36,8 +36,5 @@
 .menu_text:hover{
     transition: 0.5s;
     
-    border-bottom: 2px solid #98EC65;
-}
-.menu_text:visited{
-    color: #ECECEC;
+    color: #98EC65;
 }
