@@ -67,9 +67,11 @@
     color: #000;
     font-size: 48px;
     line-height: 61.87px;
+    font-weight: 300;
 
     width: 640px;
     height: 248px;
+
 }
 .contacts__desc__text::after{
     content: '';

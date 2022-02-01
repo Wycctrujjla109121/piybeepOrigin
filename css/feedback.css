@@ -10,7 +10,7 @@
 
     background-image: url(../bgImage/feedbackLeftBottom.svg), url(../bgImage/feedbackRightBottom.svg);
     background-repeat: no-repeat;
-    background-position: 100px 620px, 1450px 620px;
+    background-position: 100px 620px, right 350px;
 }
 .feedback {
     display: flex;
@@ -111,6 +111,7 @@
     font-size: 14px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    font-weight: 700;
     color: #ECECEC;
 }
 .feedback__link:visited{

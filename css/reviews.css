@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
 
-    margin-top: 40px;
+    margin-top: 20px;
     
     font-family: 'Source Code Pro', monospace;
     font-size: 24px;
@@ -106,23 +106,24 @@
 }
 .reviews__items{
     display: flex;
-    align-items: flex-end;
+    align-items:flex-end;
     justify-content: space-between;
+
 }
 .reviews__comment{
+    height: 27px;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 23.2px;
     font-weight: 500;
     color: #fff;
 
-    position: relative;
 }
-.reviews__comment::before{
+.reviews__comment::after{
     content: '';
-    display: inline-block;
-    position: absolute;
-    bottom: -4px;
+    display: block;
+    position: relative;
 
     width: 152px;
     height: 1px;

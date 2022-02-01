@@ -76,6 +76,11 @@
     justify-content: center;
     align-items: center;
 
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 575px;
+
     position: absolute;
 }
 .project__collumn {
@@ -96,16 +101,18 @@
 }
 .svg__header{
     position: inherit;
-    top: -2000px;
+    top: -3000px;
   
     animation-name: header;
-    animation-duration: 4.4s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+
 }
 @keyframes header {
     30% {
       top: 0;
+      z-index: 1;
     }
     70% {
       top: 0;
@@ -119,10 +126,11 @@
     left: -3000px;
 
     animation-name: left;
-    animation-duration: 3.5s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
-    animation-delay: .6s;
+    animation-delay: .2s;
     animation-fill-mode: forwards;
+
 }
 @keyframes  left{
     40%{
@@ -140,10 +148,11 @@
     right: -3000px;
 
     animation-name: right;
-    animation-duration: 3.6s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
-    animation-delay: 1.0s;
+    animation-delay: 0.6s;
     animation-fill-mode: forwards;
+
   }
 @keyframes right {
     40% {
@@ -165,12 +174,13 @@
     bottom: -3000px;
 
     animation-name: footer;
-    animation-duration: 3.6s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
-    animation-delay: 1.4s;
+    animation-delay: 0.8s;
     animation-fill-mode: forwards;
 
     width: 100%;
+
 }
 @keyframes footer {
     40%{
@@ -188,71 +198,84 @@
 .project__wrapper__header{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 
-  height: 186px;
-
   position: relative;
+
+  width: 100%;
 
 }
 .project__wrapper__content{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+
   width: 100%;
 }
 .project__wrapper__content__left{
-  width: 160px;
-  height: 450px;
+
 }
 .project__wrapper__content__right{
-  margin-right: 120px;
+
+}
+
+.project__wrapper__content{
+  margin-top: 27px;
+
+  position: relative;
 }
 
 .svg__header2{
+  margin-right: 30px;
+  margin-bottom: 60px;
+
   position: inherit;
 
+
   top: -2000px;
-  
+
   animation-name: header;
   animation-duration: 4s;
   animation-delay: 4.2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
+
 }
 
 .svg__under__header{
+  margin-right: 277px;
+
   position: inherit;
   top: -2000px;
-
+  
   animation-name: header;
-  animation-duration: 4.3s;
+  animation-duration: 4s;
   animation-delay: 3.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
+
 }
-.project__wrapper__content{
-  position: relative;
-}
+
 .project__wrapper__content__left{
   position: inherit;
   left: -3000px;
 
   animation-name: left;
-  animation-duration: 3.5s;
+  animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-delay: 4.6s;
   animation-fill-mode: forwards;
+
 }
 .project__wrapper__content__right{
   position: inherit;
     right: -3000px;
 
     animation-name: right;
-    animation-duration: 3.6s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
-    animation-delay: 4.8s;
+    animation-delay: 4.6s;
     animation-fill-mode: forwards;
 }
 
@@ -265,6 +288,21 @@
   position: relative;
 }
 .project__header{
+  margin-bottom: 46px;
+
+  position: inherit;
+  top: -3000px;
+
+  animation-name: header;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7.6s;
+  animation-fill-mode: forwards;
+}
+
+.project__under__header{
+  margin-bottom: 44px;
+
   position: inherit;
   top: -3000px;
 
@@ -274,18 +312,9 @@
   animation-delay: 7.4s;
   animation-fill-mode: forwards;
 }
-
-.project__under__header{
-  position: inherit;
-  top: -3000px;
-
-  animation-name: header;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 7.2s;
-  animation-fill-mode: forwards;
-}
 .project__under__footer{
+  margin-bottom: 44px;
+
   position: inherit;
     bottom: -3000px;
 
@@ -304,4 +333,101 @@
   animation-timing-function: ease-in-out;
   animation-delay: 7.8s;
   animation-fill-mode: forwards;
+
+  width: 100%;
+}
+
+
+
+.project__collumn__anim4 {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+.project__header__anim4 {
+  margin-bottom: 32px;
+
+  position: inherit;
+  top: -3000px;
+
+  animation-name: header;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10.4s;
+  animation-fill-mode: forwards;
+
+  position: inherit;
+}
+.project__row__anim4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 33px;
+
+  position: relative;
+}
+.project__row__left__anim4 {
+  position: inherit;
+  left: -3000px;
+
+  animation-name: left;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10.4s;
+  animation-fill-mode: forwards;
+
+  position: inherit;
+}
+.project__collumns__anim4 {
+  position: relative;
+}
+.project__rows__anim4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  gap: 33px;
+
+  margin-bottom: 37px;
+
+  position: relative;
+}
+.project__collumns__left__anim4 {
+  position: inherit;
+  right: -3000px;
+
+  animation-name: right;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10.6s;
+  animation-fill-mode: forwards;
+}
+.project__collumns__right__anim4 {
+  position: inherit;
+  right: -3000px;
+
+  animation-name: right;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10.8s;
+  animation-fill-mode: forwards;
+
+  position: inherit;
+}
+.project__collumns__footer__anim4 {
+  position: inherit;
+  bottom: -3000px;
+
+  animation-name: footer;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10.4s;
+  animation-fill-mode: forwards;
+
+  position: inherit;
+}
+
+.opacity{
+  opacity: 0;
 }

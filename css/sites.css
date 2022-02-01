@@ -8,9 +8,12 @@
 
     height: 276px;
 
+    width: 100%;
+    max-width: 1700px;
+
     background-image: url(../bgImage/sitesLeftBg.svg), url(../bgImage/sitesRightBg.svg);
     background-repeat: no-repeat;
-    background-position: left bottom, right top;
+    background-position: 55px bottom, right top;
 }
 .sites__title {
     width: 1405px;
