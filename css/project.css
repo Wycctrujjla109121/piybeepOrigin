@@ -22,8 +22,7 @@
     color: #DCDCDC;
 
     width: 922px;
-    min-height: 290px;
-
+    height: 290px;
 }
 .project__label::after{
     content: '';
