@@ -116,3 +116,63 @@
 .advantage__button:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 1750px) {
+    .advantage__grid{
+        background-position: 960px 3px, -125px 215px;
+    }
+}
+@media screen and (max-width: 1614px) {
+    .advantage__grid{
+        background-position: 960px 3px, -255px 215px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .advantage__grid{
+        display: flex;
+        flex-direction: column;
+        gap: 101px;
+
+        background-image: url(../bgImage/advantageWidth1000TopRight.svg), url(../bgImage/advantageLeftCenter1000Width.svg), url(../bgImage/advantageRightBottom1000Width.svg);
+        background-position: right 5px, left 132px, right 260px;
+    }
+    .advantage{
+        width: 1000px;
+        height: 480px;
+    }
+    .advantage__item{
+        font-size: 18px;
+    }
+    .advantage__adaptive{
+        justify-content: left;
+        margin-left: 24px;
+    }
+    .advantage__admin{
+        justify-content: right;
+        margin-right: 24px;
+    }
+    .advantage__seo{
+        justify-content: left;
+        max-width: 567px;
+
+        margin-left: 24px;
+    }
+    .advantage__list{
+        margin-top: 100px;
+
+        width: 864px;
+        height: 71px;
+
+    }
+    .advantage__desc{
+        font-size: 18px;
+    }
+    .advantage__button{
+        width: 250px;
+        height: 71px;
+
+        font-size: 18px;
+    }
+}
+

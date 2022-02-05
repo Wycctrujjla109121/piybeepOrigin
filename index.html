@@ -324,12 +324,12 @@
             <!-- Не совсем уверен, что подходит itention, можно заменить на kind_of_site -->
             <!-- Лендинг, веб приложение, и.т.д. -->
             <div class="itention">
-                <h2 class="itention__title title">мы делаем</h2>
+                <h2 class="itention__title">мы делаем</h2>
                 <div class="itention__container">
                     <a href="services.html" class="itention__type itention__lending">
                         <div class="itention__item">
                             <h3 class="itention__label">Лендинги</h3>
-                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                            <svg class="itention__arrow__width" width="227" height="15" viewBox="0 0 227 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
@@ -342,7 +342,7 @@
                     <a href="services.html" class="itention__type itention__web">
                         <div class="itention__item">
                             <h3 class="itention__label">Веб-приложения</h3>
-                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                            <svg class="itention__arrow__width" width="227" height="15" viewBox="0 0 227 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
@@ -355,7 +355,7 @@
                     <a href="services.html" class="itention__type itention__online_store">
                         <div class="itention__item">
                             <h3 class="itention__label">Интернет-магазины</h3>
-                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                            <svg class="itention__arrow__width" width="227" height="15" viewBox="0 0 227 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
@@ -368,7 +368,7 @@
                     <a href="services.html" class="itention__type itention__corporate_site">
                         <div class="itention__item">
                             <h3 class="itention__label">Корпоративные сайты</h3>
-                            <svg width="227" height="15" viewBox="0 0 227 15" fill="none"
+                            <svg class="itention__arrow__width" width="227" height="15" viewBox="0 0 227 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path class="itention__arrow" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M219.087 0.0949707C219.087 0.0949707 221.052 2.02802 223.163 4.13921L223.152 4.15018L225.708 6.70588C225.847 6.84752 225.982 6.98634 226.114 7.12167C226.191 7.20093 226.291 7.30319 226.369 7.38363L226.5 7.5153L224.036 9.97974L224.038 9.98189L219.114 14.9051L217.692 13.4826L222.607 8.56773H0L0 6.44946H222.619L217.676 1.50626L219.087 0.0949707Z"
@@ -382,7 +382,7 @@
 
             <!-- Наши проекты -->
             <div class="our_project">
-                <h2 class="our_project__title title">Наши проекты</h2>
+                <h2 class="our_project__title">Наши проекты</h2>
                 <div class="our_project__list">
                     <a href="portfolio.html" class="our_project_item">
                         <div class="our_project__wrapper_img">
@@ -472,7 +472,15 @@
                 </div>
                 <div class="price__list">
                     <div class="price__item">
-                        <p class="price__text">10-14 дней</p>
+                        <div class="price__text__img">
+                            <svg class="price__calendar" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.3016 2.79411H2.78587C2.114 2.79411 1.56934 3.33944 1.56934 4.01213V12.5383C1.56934 13.2109 2.114 13.7563 2.78587 13.7563H11.3016C11.9735 13.7563 12.5181 13.2109 12.5181 12.5383V4.01213C12.5181 3.33944 11.9735 2.79411 11.3016 2.79411Z" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.47681 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.6106 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1.56934 6.44817H12.5181" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p class="price__text">10-14 дней</p>
+                        </div>
                         <div class="price_info">
                             <h2 class="price__title">Лендинг/промосайт</h2>
                             <span class="price__subtitle">от 55 000 ₽</span>
@@ -492,7 +500,15 @@
                     </div>
 
                     <div class="price__item">
+                        <div class="price__text__img">
+                        <svg class="price__calendar" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.3016 2.79411H2.78587C2.114 2.79411 1.56934 3.33944 1.56934 4.01213V12.5383C1.56934 13.2109 2.114 13.7563 2.78587 13.7563H11.3016C11.9735 13.7563 12.5181 13.2109 12.5181 12.5383V4.01213C12.5181 3.33944 11.9735 2.79411 11.3016 2.79411Z" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.47681 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.6106 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1.56934 6.44817H12.5181" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         <p class="price__text">10-14 дней</p>
+                    </div>
                         <div class="price_info">
                             <h2 class="price__title">Корпоративный сайт</h2>
                             <span class="price__subtitle">от 85 000 ₽</span>
@@ -512,7 +528,15 @@
                     </div>
 
                     <div class="price__item">
-                        <p class="price__text">10-14 дней</p>
+                        <div class="price__text__img">
+                            <svg class="price__calendar" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.3016 2.79411H2.78587C2.114 2.79411 1.56934 3.33944 1.56934 4.01213V12.5383C1.56934 13.2109 2.114 13.7563 2.78587 13.7563H11.3016C11.9735 13.7563 12.5181 13.2109 12.5181 12.5383V4.01213C12.5181 3.33944 11.9735 2.79411 11.3016 2.79411Z" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.47681 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4.6106 1.5761V4.01213" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1.56934 6.44817H12.5181" stroke="#FF9F89" stroke-width="1.21802" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <p class="price__text">10-14 дней</p>
+                        </div>
                         <div class="price_info">
                             <h2 class="price__title">Интернет-магазин</h2>
                             <span class="price__subtitle">от 115 000 ₽</span>
@@ -564,7 +588,7 @@
                         </div>
                     </div>
                     <button class="reviews__btn_right">
-                        <svg width="95" height="69" viewBox="0 0 95 69" fill="transparent"
+                        <svg width="93" height="67" viewBox="0 0 95 69" fill="transparent"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="reviews__rightButton__arrow"
                                 d="M0.649902 67H17.77H61.0738C69.6207 67 77.8176 63.5759 83.8611 57.481C89.9047 51.386 93.2999 43.1195 93.2999 34.5C93.2999 25.8805 89.9047 17.614 83.8611 11.519C77.8176 5.4241 69.6207 2 61.0738 2C61.0738 2 34.6812 2 17.77 2H0.649902"
@@ -584,7 +608,7 @@
         </div>
 
         <!-- Подвал с feedback-ом -->
-        <div class="footer">
+         <div class="footer">
             <div class="feedback">
                 <h2 class="feedback__title__main__portfolio">Оставьте здесь заявку и мы с вами свяжемся</h2>
                 <form action="#" class="feedback__form">
@@ -621,7 +645,7 @@
                     <h3 class="feedback__footer">made by piybeep</h3>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
     <script src="js/mass.js"></script>
     <script src="js/intersection.js"></script>

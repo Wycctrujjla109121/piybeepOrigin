@@ -101,12 +101,11 @@
 .svg__header{
     position: inherit;
     top: -3000px;
-  
+
     animation-name: header;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-
 }
 @keyframes header {
     30% {
@@ -429,4 +428,35 @@
 
 .opacity{
   opacity: 0;
+}
+
+@media screen and (max-width: 1755px) {
+  .project{
+    background-image: none;
+  }
+}
+@media screen and (max-width: 1755px) {
+  .project{
+    background-image: none;
+  }
+  .project__label{
+    margin: 0px 186px;
+
+    font-size: 48px;
+    line-height: 61.87px;
+
+    width: 628px;
+    height: 186px;
+  }
+  .project__label::after{
+    height: 47px;
+  }
+
+  .project__block{
+    height: 820px;
+  }
+  .project__wrapper{
+    margin-left: 166px;
+    margin-right: 166px;
+  }
 }

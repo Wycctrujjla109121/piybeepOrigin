@@ -3,10 +3,9 @@
     flex-direction: column;
     align-items: center;
 
-    /* width: calc(100% - 140px); */
     width: 100%;
     max-width: 1640px;
-    
+
     margin-top: 350px;
 }
 .itention__title{
@@ -23,6 +22,23 @@
     position: relative;
 
     margin-bottom: 96px;
+}
+.itention__title::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+    margin-left: 24px;
+}
+.itention__title::before{
+    content: '';
+    display: inline-block;
+    width: 69px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -15px;
 }
 .itention__container{
     display: grid;
@@ -75,8 +91,6 @@
 
 .itention__label:hover::after{
     transition: 0.5s;
-
-    background-image: url(../bgImage/TypeSiteArrowGreen.svg);
 }
 .itention__img {
     margin-left: 74px;
@@ -115,4 +129,95 @@
     
     grid-row-start: 4;
     grid-row-end: 4; 
+}
+
+
+
+@media screen and (max-width: 1635px) {
+    .itention__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .itention{
+        width: 100%;
+        max-width: 790px;
+        height: 100%;
+        /* max-height: 562px; */
+
+        margin-top: 0px;
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+    .itention__container{
+        align-items: flex-start;
+    }
+    .itention__arrow__width{
+        width: 160px;
+    }
+    .itention__title{
+        font-size: 24px;
+        line-height: 30.94px;
+    }
+    .itention__title::after{
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background-color: #98EC65;
+        margin-left: 24px;
+    }
+    .itention__title::before{
+        content: '';
+        display: inline-block;
+        width: 69px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        bottom: -15px;
+    }
+    .itention__container{
+        background-image: none;
+    }
+    .itention__label{
+        font-size: 48px;
+        line-height: 61.87px;
+    }
+    .itention__text{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .itention__lending {
+        grid-column-start: 1;
+        grid-column-end: 11;
+    
+        grid-row-start: 1;
+        grid-row-end: 1; 
+    }
+    .itention__web{
+        grid-column-start: 1;
+        grid-column-end: 11;
+    
+        grid-row-start: 2;
+        grid-row-end: 2; 
+    }
+    .itention__online_store{
+        grid-column-start: 1;
+        grid-column-end: 11;
+    
+        grid-row-start: 3;
+        grid-row-end: 3; 
+    }
+    .itention__corporate_site{
+        grid-column-start: 1;
+        grid-column-end: 11;
+        
+        grid-row-start: 4;
+        grid-row-end: 4; 
+    }
 }

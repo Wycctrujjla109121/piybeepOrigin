@@ -10,7 +10,6 @@ body{
     background-color: #100F13;
 
     min-height: 100%;
-    min-width: 1700px;
 }
 .content{
     display: flex;
@@ -21,7 +20,13 @@ body{
     
     width: 100%;
     max-width: 3000px;
+
+    overflow: hidden;
 }
 .footer{
     flex: 0 0;
 }
+
+/* *{
+    border: 1px solid red;
+} */

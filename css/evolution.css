@@ -27,3 +27,21 @@
     
     margin-left: 15px;
 }
+
+@media screen and (max-width: 1755px) {
+    .evolution{
+        margin-top: 165px;
+        margin-bottom: 165px;
+    }
+    .evolution__title{
+        width: 682px;
+        height: 144px;
+
+        font-size: 48px;
+        line-height: 72.19px;
+    }
+    .evolution__title::after{
+        width: 6px;
+        height: 6px;
+    }
+}

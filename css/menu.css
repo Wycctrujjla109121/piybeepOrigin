@@ -38,3 +38,13 @@
     
     color: #98EC65;
 }
+
+@media screen and (max-width: 1755px) {
+    .menu_text{
+        margin: 0px 60px;
+    }
+    .menu{
+        margin: 0px;
+    }
+}
+
