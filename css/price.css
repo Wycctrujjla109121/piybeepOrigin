@@ -245,3 +245,13 @@
         line-height: 18.05px;
     }
 }
+@media screen and (max-width: 768px){
+    .price__button{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px){
+    .price{
+        width: calc(100% - 15px);
+    }
+}

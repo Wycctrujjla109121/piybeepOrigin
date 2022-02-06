@@ -284,6 +284,9 @@
         max-width: 328px;
         width: calc(100% - 12px);
     }
+    .advantage{
+        width: calc(100% - 15px);
+    }
 }
 @media screen and (max-width: 333px){
     .advantage{
