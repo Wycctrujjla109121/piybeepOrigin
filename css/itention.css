@@ -53,8 +53,8 @@
     background-image: url(../bgImage/itentionBgLeftBottom.svg);
     background-repeat: no-repeat;
     background-position: 50px 450px;
-
 }
+
 .itention__label {
     display: flex;
     flex-direction: row;
@@ -86,7 +86,9 @@
 .itention__item:hover .itention__arrow{
     fill: #98EC65;
 }
-
+.itention__arrow__width__768{
+    display: none;
+}
 
 
 .itention__label:hover::after{
@@ -219,5 +221,47 @@
         
         grid-row-start: 4;
         grid-row-end: 4; 
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .itention{
+        width: calc(100% - 25px);
+    }
+    .itention__arrow__width{
+        display: none;
+    }
+    .itention__arrow__width__768{
+        display: inline-block;
+        margin-top: 23px;
+        transition: 0.5s;
+    }
+    .itention__type:hover .itention__arrow{
+        fill: #98EC65;
+    }
+}
+
+@media screen and (max-width: 651px){
+    .itention__label{
+        font-size: 36px;
+        line-height: 30.94px;
+    }
+    .itention__text{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .itention__arrow__width__768{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 491px){
+    .itention__label{
+        font-size: 24px;
+        line-height: 30.94px;
+    }
+    .itention__text{
+        font-size: 14px;
+        line-height: 16px;
     }
 }

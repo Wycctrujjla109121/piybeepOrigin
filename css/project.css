@@ -21,7 +21,8 @@
     font-weight: 300;
     color: #DCDCDC;
 
-    width: 922px;
+    width: 100%;
+    max-width: 922px;
     height: 290px;
 }
 .project__label::after{
@@ -86,17 +87,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+
   position: relative;
 
 }
 .project__row{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     margin: 50px 0px;
     position: relative;
 
+    width: 100%;
 }
 .svg__header{
     position: inherit;
@@ -106,6 +110,9 @@
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+
+    width: 100%;
+    max-width: 902px;
 }
 @keyframes header {
     30% {
@@ -129,6 +136,8 @@
     animation-delay: .2s;
     animation-fill-mode: forwards;
 
+    max-width: 262px;
+    width: 100%;
 }
 @keyframes  left{
     40%{
@@ -151,7 +160,9 @@
     animation-delay: 0.6s;
     animation-fill-mode: forwards;
 
-  }
+    max-width: 284px;
+    width: 100%;
+}
 @keyframes right {
     40% {
       right: 0px;
@@ -178,7 +189,7 @@
     animation-fill-mode: forwards;
 
     width: 100%;
-
+    max-width: 738px;
 }
 @keyframes footer {
     40%{
@@ -212,10 +223,12 @@
   width: 100%;
 }
 .project__wrapper__content__left{
-
+  width: 100%;
+  max-width: 146px;
 }
 .project__wrapper__content__right{
-
+  width: 100%;
+  max-width: 439px;
 }
 
 .project__wrapper__content{
@@ -239,6 +252,8 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 
+  width: 100%;
+  max-width: 513px;
 }
 
 .svg__under__header{
@@ -296,6 +311,9 @@
   animation-timing-function: ease-in-out;
   animation-delay: 7.6s;
   animation-fill-mode: forwards;
+
+  width: 100%;
+  max-width: 757px;
 }
 
 .project__under__header{
@@ -309,6 +327,9 @@
   animation-timing-function: ease-in-out;
   animation-delay: 7.4s;
   animation-fill-mode: forwards;
+
+  width: 100%;
+  max-width: 757px;
 }
 .project__under__footer{
   margin-bottom: 44px;
@@ -321,6 +342,9 @@
     animation-timing-function: ease-in-out;
     animation-delay: 7.6s;
     animation-fill-mode: forwards;
+
+    width: 100%;
+    max-width: 378px;
 }
 .project__footer{
   position: inherit;
@@ -333,6 +357,7 @@
   animation-fill-mode: forwards;
 
   width: 100%;
+  max-width: 622px;
 }
 
 
@@ -356,6 +381,9 @@
   animation-fill-mode: forwards;
 
   position: inherit;
+
+  width: 100%;
+  max-width: 900px;
 }
 .project__row__anim4 {
   display: flex;
@@ -364,6 +392,8 @@
   gap: 33px;
 
   position: relative;
+
+  width: 100%;
 }
 .project__row__left__anim4 {
   position: inherit;
@@ -376,6 +406,9 @@
   animation-fill-mode: forwards;
 
   position: inherit;
+
+  width: 100%;
+  max-width: 260px;
 }
 .project__collumns__anim4 {
   position: relative;
@@ -400,6 +433,9 @@
   animation-timing-function: ease-in-out;
   animation-delay: 10.6s;
   animation-fill-mode: forwards;
+
+  width: 100%;
+  max-width: 216px;
 }
 .project__collumns__right__anim4 {
   position: inherit;
@@ -412,6 +448,9 @@
   animation-fill-mode: forwards;
 
   position: inherit;
+
+  width: 100%;
+  max-width: 179px;
 }
 .project__collumns__footer__anim4 {
   position: inherit;
@@ -424,17 +463,15 @@
   animation-fill-mode: forwards;
 
   position: inherit;
+
+  width: 100%;
+  max-width: 427px;
 }
 
 .opacity{
   opacity: 0;
 }
 
-@media screen and (max-width: 1755px) {
-  .project{
-    background-image: none;
-  }
-}
 @media screen and (max-width: 1755px) {
   .project{
     background-image: none;
@@ -458,5 +495,61 @@
   .project__wrapper{
     margin-left: 166px;
     margin-right: 166px;
+  }
+}
+
+@media screen and (max-width: 618px){
+  .project__label{
+    width: calc(100% - 26px);
+    height: 150px;
+
+    font-size: 34px;
+    line-height: 45.94px;
+  }
+  .project__label::after{
+    width: 3px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 458px){
+  .project__label{
+    width: calc(100% - 26px);
+    height: 100px;
+
+    font-size: 29px;
+    line-height: 30.94px;
+  }
+  .project__label::after{
+    width: 3px;
+    height: 27px;
+  }
+}
+
+@media screen and (max-width: 393px){
+  .project__label{
+    height: 110px;
+    width: calc(100% - 26px);
+
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 356px){
+  .project__label{
+    width: calc(100% - 26px);
+
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 331px){
+  .project__label{
+    width: calc(100% - 26px);
+
+    font-size: 22px;
+  }
+
+  .project__label::after{
+    height: 25px;
   }
 }

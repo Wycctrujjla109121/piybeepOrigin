@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 1270px) {
     .price{
-        width: 850px;
+        width: 100%;
         overflow: hidden;
     }
     .price__list{

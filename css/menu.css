@@ -48,3 +48,24 @@
     }
 }
 
+@media screen  and (max-width: 926px){
+    .menu_text{
+        margin: 0px 30px;
+    }
+}
+@media screen  and (max-width: 691px){
+    .menu_text{
+        margin: 0px 10px;
+    }
+}
+
+@media screen  and (max-width: 553px){
+    .menu_text{
+        margin: 0px 5px;
+    }
+}
+@media screen  and (max-width: 493px){
+    .menu_text{
+        display: none;
+    }
+}
