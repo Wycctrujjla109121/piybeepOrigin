@@ -37,14 +37,18 @@
     display: flex;
     flex-direction: column;
     gap: 200px;
+
+    width: 100%;
 }
 .make__item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 91px;
+    /* gap: 91px; */
 
     height: 264px;
+
+    width: 100%;
 }
 .make__label {
     font-family: 'PT Mono', monospace;
@@ -60,14 +64,15 @@
     padding-top: 19px;
 
     background-image: url(../bgImage/makeLabelBg.svg);
-
+    position: relative;
+    left: -83px;
 }
 
 .make__info {
     align-self: center;
 
     width: 100%;
-    max-width: 750px;
+    max-width: 840px;
 }
 .make__desc {
     font-family: 'Source Code Pro', monospace;
@@ -132,7 +137,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
         gap: 30px;
         height: auto;
 
@@ -153,6 +157,8 @@
         width: 100%;
     }
     .make__label{
+        left: 0px;
+        
         font-size: 36px;
 
         background-image: none;
