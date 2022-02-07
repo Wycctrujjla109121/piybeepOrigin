@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
 
-    width: calc(100% - 140px - 57px);
+    width: 100%;
+    max-width: 1640px;
 }
 .make__title {
     text-align: center;
@@ -14,6 +15,9 @@
     font-size: 72px;
     line-height: 92.81px;
     color: #fff;
+
+    width: 100%;
+    max-width: 1640px;
 
 }
 .make__title::after{
@@ -49,7 +53,8 @@
     font-weight: 400;
     color: #fff;
 
-    min-width: 792px;
+    width: 100%;
+    max-width: 792px;
 
     padding-left: 83px;
     padding-top: 19px;
@@ -62,8 +67,7 @@
     align-self: center;
 
     width: 100%;
-
-    min-width: 750px;
+    max-width: 750px;
 }
 .make__desc {
     font-family: 'Source Code Pro', monospace;
@@ -122,4 +126,135 @@
     line-height: 24px;
     font-weight: 300;
     color: #fff;
+}
+@media screen and (max-width: 1539px){
+    .make__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 30px;
+        height: auto;
+
+        background-image: url(../bgImage/makeItemWidth1539.svg);
+
+        width: 100%;
+        max-width: 835px;
+    }
+    .make__info{
+        width: 100%;
+        max-width: 750px;
+    }
+    .make__list{
+        margin-top: 135px;
+        gap: 64px;
+
+        align-items: center;
+        width: 100%;
+    }
+    .make__label{
+        font-size: 36px;
+
+        background-image: none;
+
+        width: 100%;
+        max-width: 750px;
+
+        padding: 0px;
+
+        height: 50px;
+    }
+    .make__desc{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .make__promo{
+        margin-bottom: 16px;
+    }
+    .make__button{
+        font-size: 18px;
+        line-height: 23.2px;
+
+        padding: 16px 46px;
+    }
+    .make__price{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .make__title{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 790px){
+    .make__list{
+        width: calc(100% - 16px);
+    }
+}
+@media screen and (max-width: 670px){
+    .make__title{
+        font-size: 36px;
+    }
+    .make__title::after{
+        width: 6px;
+        height: 6px;
+
+        border-radius: 50%;
+
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 561px){
+    .make__label{
+        font-size: 24px;
+    }
+    .make__desc{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .make__promo{
+        margin-bottom: 10px;
+    }
+    .make__button{
+        font-size: 16px;
+    }
+    .make__price{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 537px){
+    .make__title{
+        font-size: 24px;
+        line-height: 30.94px;
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 513px){
+    .make__button{
+        font-size: 14px;
+    }
+    .make__price{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 468px){
+    .make__button{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 407px){
+    .make__button{
+        width: 200px;
+
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 337px){
+    .make__price{
+        text-align: center;
+    }
 }

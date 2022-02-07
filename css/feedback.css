@@ -7,7 +7,8 @@
     background-position: 100px 900px, 100px 100px, 1510px 620px;
 }
 .footer__studio__services{
-    width: 1640px;
+    width: 100%;
+    max-width: 1640px;
     
     background-image: url(../bgImage/feedbackLeftBottom.svg), url(../bgImage/feedbackRightBottom.svg);
     background-repeat: no-repeat;
@@ -116,6 +117,10 @@
 }
 .feedback_item{
     margin-top: 190px;
+
+    display: flex;
+    justify-content: space-between;
+    min-width: 320px;
 }
 .feedback__link{
     margin: 0px 36px;
@@ -230,11 +235,24 @@
         background-image: none;
     }
 }
+@media screen and (max-width: 1446px){
+    .footer__studio__services{
+        background-image: none;
+    }
+}
 @media screen and (max-width: 1000px){
     .footer{
         width: 100%;
         max-width: 800px;
         background-image: none;
+    }
+    .feedback__title{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .feedback::after{
+        width: 6px;
+        height: 6px;
     }
     .feedback__title__main__portfolio{
         font-size: 24px;
@@ -287,10 +305,19 @@
 
 
 @media screen and (max-width: 630px){
+    .feedback__title{
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .feedback__title::after{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+    }
     .feedback__title__main__portfolio{
         font-size: 22px;
         line-height: 22px;
-
         text-align: center;
     }
     .feedback__title__main__portfolio::after{
@@ -308,6 +335,12 @@
 
 
 @media screen and (max-width: 583px){
+    .feedback__title{
+        font-size: 18px;
+        line-height: 18px;
+
+        text-align: center;
+    }
     .feedback__title__main__portfolio{
         font-size: 18px;
         line-height: 18px;
@@ -358,7 +391,7 @@
         margin-right: 0px;
     }
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 393px){
     .feedback__proudct__item{
         padding: 8px 16px;
 
@@ -369,6 +402,9 @@
         border-bottom-right-radius: 30px;
     }
     .footer{
+        width: calc(100% - 15px);
+    }
+    .footer__studio__services{
         width: calc(100% - 15px);
     }
 }

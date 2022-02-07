@@ -25,3 +25,59 @@
     line-height: 48px;
     color: #fff;
 }
+
+@media screen and (max-width: 1531px){
+    .sites{
+        width: calc(100% - 24px);
+
+        background-image: url(../bgImage/bgServicesWidth1500Right.svg), url(../bgImage/bgServicesWidth1500Left.svg);
+        background-position: right top, left bottom;
+    }
+    .sites__title{
+        width: 100%;
+        max-width: 1000px;
+
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 1047px){
+    .sites__title{
+        max-width: 688px;
+
+        font-size: 24px;
+        line-height: normal;
+    }
+}
+@media screen and (max-width: 1047px){
+    .sites__title{
+        max-width: 453px;
+    }
+}
+@media screen and (max-width: 640px){
+    .sites__title{
+        max-width: 453px;
+    }
+}
+@media screen and (max-width: 600px){
+    .sites__title{
+        max-width: 453px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .sites{
+        background-image: url(../bgImage/bgServicesSitesTopWidth530.svg), url(../bgImage/bgServicesSitesBottomWidth530.svg);
+        background-position: top, bottom;
+    }
+}
+@media screen and (max-width: 460px){
+    .sites__title{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 360px){
+    .sites{
+        background-image: url(../bgImage/bgServicesSitesTopWidth360.svg), url(../bgImage/bgServicesSitesBottomWidth360.svg);
+        background-position: top, bottom;
+    }
+}
