@@ -120,7 +120,9 @@
 
     display: flex;
     justify-content: space-between;
-    min-width: 320px;
+    min-width: 300px;
+
+    padding: 0px 15px;
 }
 .feedback__link{
     margin: 0px 36px;
@@ -199,6 +201,7 @@
 
     width: 100%;
     max-width: 750px;
+    
 
 }
 .feedback__proudct__item {

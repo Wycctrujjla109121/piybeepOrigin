@@ -110,6 +110,11 @@
     }
 }
 
+@media screen and (max-width: 1600px){
+    .header__bg{
+        background-image: none;
+    }
+}
 @media screen and (max-width: 1000px) {
     .header{
         width: 100%;
@@ -117,9 +122,6 @@
         
         margin-bottom: 0.5px;
         margin-top: 44px;
-    }
-    .header__bg{
-        background-image: none;
     }
     .header__text{
         display: none;

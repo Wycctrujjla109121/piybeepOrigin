@@ -6,6 +6,7 @@
     width: 100%;
     max-width: 1640px;
 
+    padding: 0px 15px;
     margin-top: 350px;
 }
 .itention__title{
@@ -92,7 +93,6 @@
     display: none;
 
     min-height: 10px;
-    /* border: 1px solid red; */
 }
 
 
@@ -129,7 +129,7 @@
 .itention__arrow__width__320{
     display: none;
 }
-@media screen and (max-width: 1611px){
+@media screen and (max-width: 1635px){
     .itention__web{
         margin-left: 5%;
     }
@@ -141,7 +141,7 @@
     }
 }
 
-@media screen and (max-width: 1496px){
+@media screen and (max-width: 1528px){
     .itention__web{
         margin-left: 2.5%;
     }
@@ -155,7 +155,7 @@
         background-image: none;
     }
 }
-@media screen and (max-width: 1285px){
+@media screen and (max-width: 1315px){
     .itention__web{
         margin-left: 1%;
     }
@@ -166,7 +166,7 @@
         margin-left: 6%;
     }
 }
-@media screen and (max-width: 1195px){
+@media screen and (max-width: 1225px){
     .itention__web{
         margin-left: 0%;
     }
@@ -178,7 +178,7 @@
     }
     .itention{
         width: 100%;
-        max-width: 790px;
+        max-width: 850px;
         height: 100%;
 
         margin-top: 0px;
@@ -224,7 +224,7 @@
         line-height: 16px;
     }
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 813px) {
     .itention{
         width: calc(100% - 25px);
     }
@@ -241,7 +241,7 @@
     }
 }
 
-@media screen and (max-width: 651px){
+@media screen and (max-width: 678px){
     .itention__label{
         font-size: 24px;
         line-height: 30.94px;
