@@ -372,6 +372,18 @@
     .feedback__link{
         margin: 0px 4px;
     }
+    .feedback__title__main__portfolio{
+        width: calc(100% - 50px);
+    }
+    .feedback__title__main__portfolio::after{
+        margin-left: 5px;
+    }
+    .feedback__title{
+        width: calc(100% - 50px);
+    }
+    .feedback__title::after{
+        margin-left: 5px;
+    }
 }
 @media screen and (max-width: 430px) {
     .feedback__site{

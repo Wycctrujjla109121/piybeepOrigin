@@ -66,6 +66,8 @@
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     animation-duration: 1s;
+
+    margin-left: -56px;
 }
 .header__label::after{
     content: '';
@@ -160,6 +162,7 @@
     }
     .header__burger{
         display:unset;
+
         margin-left: 16px;
 
         background-color: transparent;

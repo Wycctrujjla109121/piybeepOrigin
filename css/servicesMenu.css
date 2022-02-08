@@ -24,6 +24,8 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #DEDEDE;
+
+    margin-left: -56px;
 }
 .menu__title::after{
     content: '';
@@ -64,6 +66,15 @@
     
     color: #98EC65;
 }
+.header__burger{
+    display: none;
+}
+.header__burger__color{
+    transition: 0.5s;
+}
+.menu__burger:hover .header__burger__color{
+    stroke: #98EC65;
+}
 
 @media screen and (max-width: 1250px){
     .menu_text{
@@ -98,6 +109,12 @@
     .menu_text{
         display: none;
     }
+    .header__burger{
+        display: unset;
+        background-color: transparent;
+
+        margin-left: 16px;
+    }
     .menu__burger{
         display: unset;
     
@@ -106,6 +123,7 @@
     .menu{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: baseline;
     
         height: 123px;
@@ -115,7 +133,7 @@
     .menu__title{
         font-size: 26px;
     
-        width: 100%;
+        width: 70%;
     
         text-align: center;
     }
