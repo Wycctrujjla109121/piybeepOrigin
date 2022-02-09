@@ -16,6 +16,11 @@
 }
 .description__info{
     align-self: center;
+
+    width: 100%;
+    max-width: 1300px;
+
+    margin: 0px 30px;
 }
 .description__text {
     font-family: 'PT Mono', monospace;
@@ -28,13 +33,61 @@
     color: #98EC65;
 }
 .description__expirience{
-    margin-bottom: 58px;
-    margin-right: 150px;
+    width: 100%;
+    max-width: 1102px;
 
-    width: 1102px;
 }
 .description__design{
-    margin-left: 150px;
-    
-    width: 1143px;
+    width: 100%;
+    max-width: 1143px;
+
+}
+.description__info__left{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+    margin-bottom: 58px;
+}
+.description__info__right{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px){
+    .description{
+        height: 300px;
+    }
+    .description__info{
+        padding: 0px 60px;
+    }
+    .description__text{
+        font-size: 18px;
+    }
+    .description__design{
+        max-width: 681px;
+    }
+    .description__expirience{
+        max-width: 595px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .description{
+        background-image: url(../../bgImage/descriptionWidth890Left.svg), url(../../bgImage/descriptionWidth890Right.svg);
+        background-position: left bottom, right top;
+    }
+}
+@media screen and (max-width: 610px){
+    .description{
+        background-image: none;
+        height: auto;
+    }
+    .description__info{
+        padding: 0px 16px;
+    }
+    .description__text{
+        font-size: 16px;
+    }
 }

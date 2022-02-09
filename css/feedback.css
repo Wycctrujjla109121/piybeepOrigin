@@ -19,6 +19,8 @@
     flex-direction: column;
     align-items: center;
 
+    padding: 0px 15px;
+
 }
 .feedback__title__main__portfolio {
     margin-top: 253px;
@@ -30,6 +32,8 @@
     color: #fff;
 
     text-align: center;
+
+    padding: 0px 15px;
 }
 .feedback__title__main__portfolio::after{
     content: '';
@@ -307,7 +311,7 @@
 }
 
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 685px){
     .feedback__title{
         font-size: 22px;
         line-height: 22px;
@@ -329,26 +333,36 @@
         border-radius: 50%;
     }
 }
-@media screen and (max-width: 613px){
-    .feedback__link{
-        margin: 0px 22px;
+
+
+@media screen and (max-width: 635px) {
+    .feedback__site{
         font-size: 12px;
     }
+    .feedback__number{
+        font-size: 12px;
+        
+        margin-right: 16px;
+    }
 }
-
-
-@media screen and (max-width: 583px){
+@media screen and (max-width: 634px){
     .feedback__title{
         font-size: 18px;
         line-height: 18px;
-
+        
         text-align: center;
     }
     .feedback__title__main__portfolio{
         font-size: 18px;
         line-height: 18px;
-
+        
         text-align: center;
+    }
+}
+@media screen and (max-width: 613px){
+    .feedback__link{
+        margin: 0px 22px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 573px){
@@ -371,31 +385,25 @@
         order: 6;
     }
 }
+@media screen and (max-width: 509px){
+    .feedback__title{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 534px){
+    .feedback__title__main__portfolio{
+        max-width: 400px;
+    }
+}
 @media screen and (max-width: 501px){
     .feedback__link{
         margin: 0px 4px;
     }
-    .feedback__title__main__portfolio{
-        width: calc(100% - 50px);
-    }
     .feedback__title__main__portfolio::after{
         margin-left: 5px;
     }
-    .feedback__title{
-        width: calc(100% - 50px);
-    }
     .feedback__title::after{
         margin-left: 5px;
-    }
-}
-@media screen and (max-width: 430px) {
-    .feedback__site{
-        font-size: 12px;
-    }
-    .feedback__number{
-        font-size: 12px;
-
-        margin-right: 16px;
     }
 }
 @media screen and (max-width: 384px){
@@ -406,7 +414,7 @@
         margin-right: 0px;
     }
 }
-@media screen and (max-width: 393px){
+@media screen and (max-width: 422px){
     .feedback__proudct__item{
         padding: 8px 16px;
 

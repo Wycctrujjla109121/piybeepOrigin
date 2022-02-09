@@ -38,6 +38,29 @@
     
     color: #98EC65;
 }
+.menu__burger__list {
+    display: none;
+}
+.menu__burger {
+    width: 40px;
+    height: 25px;
+    background-color: transparent;
+    transition: 0.5s;
+
+}
+.menu__burger__color{
+    transition: 0.5s;
+}
+.menu__burger:hover .menu__burger__color{
+    stroke: #98EC65;
+}
+.menu__burger__piybeep {
+    font-family: 'Arvo', serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #DEDEDE;
+}
 
 @media screen and (max-width: 1755px) {
     .menu_text{
@@ -65,7 +88,31 @@
     }
 }
 @media screen  and (max-width: 493px){
-    .menu_text{
+    .menu__info{
         display: none;
     }
+    .menu{
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+
+        padding: 0px 30px;
+    }
+    .menu__burger__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+    }
+    .menu__burger__piybeep{
+        width: 100%;
+
+        padding-right: 30px;
+
+        text-align: center;
+    }
 }
+

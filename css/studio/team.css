@@ -1,12 +1,42 @@
 .team {
     margin-top: 300px;
 }
+.team__label{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46.4px;
+    letter-spacing: 0.2em;
+    color: #DCDCDC;
+    text-transform: uppercase;
+    position: relative;
+}
+.team__label::before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    width: 69px;
+    height: 1px;
+    border: 1px solid #fff;
+}
+.team__label::after{
+    content: '';
+    display: inline-block;
+    margin-left: 24px;
+    width: 9px;
+    height: 9px;
+    background-color: #98EC65;
+}
 .team__list {
     margin-top: 100px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
+    width: 100%;
+    max-width: 1640px;
     gap: 100px;
     
     background-image: url(../../bgImage/teamSquareBg.svg);
@@ -21,8 +51,9 @@
 
     background-image: url(../../bgImage/teamBg.svg);
     background-repeat: no-repeat;
+    background-size: contain;
 
-    width: 480px;
+    width: 470px;
     height: 610px;
 }
 .team__name {
@@ -48,4 +79,84 @@
     padding: 1px 0px;
     
     margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1700px){
+    .team__list{
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1620px){
+    .team__list{
+        gap: 40px;
+
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1531px){
+    .team{
+        margin-top: 135px;
+    }
+    .team__item{
+        width: 263px;
+        height: 334px;
+    }
+    .team__name{
+        font-size: 16px;
+    }
+    .team__desc{
+        font-size: 16px;
+
+        margin-bottom: 11px;
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width: 900px){
+    .team__item{
+        width: 215px;
+        height: 272px;
+    }
+}
+@media screen and (max-width: 750px){
+    .team__list{
+        margin-top: 48px;
+    }
+    .team__list{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .team__label{
+        font-size: 18px;
+    }
+    .team__label::after{
+        width: 6px;
+        height: 6px;
+    }
+    .team__label::before{
+        width: 53px;
+        bottom: -10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .team__list{
+        gap: 20px;
+    }
+    .team{
+        margin-top: 116px;
+    }
+}
+@media screen and (max-width: 470px){
+    .team__list{
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+
+        gap: 48px;
+    }
+    .team__item{
+        width: 226px;
+        height: 384px;
+    }
 }

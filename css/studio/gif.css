@@ -3,4 +3,20 @@
     justify-content: center;
     
     margin-top: 117px;
+
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    min-height: 205px;
+    min-width: 320px;
+}
+
+.gif__img{
+    width: 100%;
+    /* height: 100%; */
+}
+@media screen and (max-width: 585px){
+    .gif{
+        margin-top: 61px;
+    }
 }
