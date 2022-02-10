@@ -136,7 +136,7 @@
     }
 }
 
-@media screen  and (max-width: 493px){
+@media screen  and (max-width: 540px){
     .menu_text{
         display: none;
     }

@@ -62,6 +62,8 @@
     color: #DEDEDE;
 }
 
+
+
 @media screen and (max-width: 1755px) {
     .menu_text{
         margin: 0px 60px;
@@ -70,24 +72,28 @@
         margin: 0px;
     }
 }
-
+@media screen and (max-width: 981px){
+    .menu_text{
+        margin: 0px 40px;
+    }
+}
 @media screen  and (max-width: 926px){
     .menu_text{
         margin: 0px 30px;
     }
 }
-@media screen  and (max-width: 691px){
+@media screen  and (max-width: 740px){
     .menu_text{
         margin: 0px 10px;
     }
 }
 
-@media screen  and (max-width: 553px){
+@media screen  and (max-width: 580px){
     .menu_text{
         margin: 0px 5px;
     }
 }
-@media screen  and (max-width: 493px){
+@media screen  and (max-width: 540px){
     .menu__info{
         display: none;
     }
