@@ -264,7 +264,7 @@
             <div class="footer__studio__services">
                 <div class="feedback">
                     <h2 class="feedback__title">Оставьте здесь заявку и мы с вами свяжемся</h2>
-                    <form action="#" class="feedback__form">
+                    <form onsubmit="clickFeedback(event)" action="#" class="feedback__form">
                         <input required type="text" class="feedback_input feedback__input__name" placeholder="Евгений">
                         <input required type="text" class="feedback_input feedback__input__email"
                             placeholder="dr.pepper@pepper.com">
@@ -282,8 +282,8 @@
                                 <button type="submit" class="feedback__button">Отправить</button>
                             </div>
                             <div class="feedback__checkbox__wrapper">
-                                <label class="feedback__checkbox__info">
-                                    <input class="feedback__checkbox" type="checkbox">
+                                <label for="feedback__checkbox" class="feedback__checkbox__info">
+                                    <input class="feedback__checkbox" type="checkbox" id="feedback__checkbox">
                                     <span class="feedback__checkbox__fake"></span>
                                     <span class="feedback__checkbox__text">Я соглашаюсь на хранение и обработку персональных данных</span>
                                 </label>
