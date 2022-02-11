@@ -352,13 +352,8 @@
         margin-top: 116px;
     }
 }
-@media screen and (max-width: 330px){
-    .steps_list{
-        background-position-y: 290px, 655px, 1010px, 1350px, 1690px, 1970px;
-    }
-}
 @media screen and (max-width: 324px){
     .steps_list{
-        background-position-y: 290px, 655px, 1010px, 1350px, 1690px, 2050px;
+        background-position-y: 290px, 655px, 1010px, 1350px, 1690px, 2020px;
     }
 }
