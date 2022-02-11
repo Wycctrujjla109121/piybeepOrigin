@@ -304,12 +304,12 @@
         background-image: none;
     }
 }
-@media screen and (max-width: 1446px){
+@media screen and (max-width: 1500px){
     .footer__studio__services{
         background-image: none;
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1035px){
     .feedback__checkbox__wrapper{
         justify-content: center;
     }

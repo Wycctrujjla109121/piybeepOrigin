@@ -111,6 +111,17 @@
 }
 
 @media screen and (max-width: 1594px){
+    .contacts{
+        justify-content: center;
+        gap: 34px;
+    }
+    .contacts__desc{
+        width: 590px;
+        height: 264px;
+    }
+    .contacts__info{
+        max-width: 590px;
+    }
     .contacts__desc__text{
         font-size: 24px;
         line-height: 24px;
@@ -121,7 +132,10 @@
         height: 27px;
     }
 }
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1065px){
+    .contacts{
+        flex-direction: column;
+    }
     .contacts__title{
         font-size: 24px;
     }
@@ -136,7 +150,6 @@
         height: 6px;
     }
 }
-
 @media screen and (max-width: 972px){
     .contacts__text{
         font-size: 21px;
@@ -145,13 +158,26 @@
         font-size: 21px;
     }
 }
-
-@media screen and (max-width: 800px){
-    .contacts{
-        flex-direction: column;
-    }
+@media screen and (max-width: 630px){
+    .contacts__desc{
+        width: 450px;
+        height: 250px;
+    } 
 }
-@media screen and (max-width: 330px){
+@media screen and (max-width: 478px){
+    .contacts__desc{
+        width: 350px;
+        height: 250px;
+    } 
+}
+@media screen and (max-width: 380px){
+    .contacts__desc{
+        width: 328px;
+        height: 175px;
+    }
+    .contacts__desc__text::after{
+        height: 20px;
+    }
     .contacts__title::after{
         width: 6px;
         height: 6px;
@@ -170,4 +196,10 @@
     .contacts__desc__text{
         font-size: 18px;
     }
+}
+@media screen and (max-width: 350px){
+    .contacts__desc{
+        width: 290px;
+        height: 250px;
+    } 
 }

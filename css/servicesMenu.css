@@ -7,13 +7,16 @@
 
     height: 254px;
 }
-.menu__burger{
+.menu__burger__width__450{
     display: none;
 
     background-color: transparent;
     
     width: 40px;
     height: 30px;
+}
+.menu__burger__List{
+    background-color: transparent;
 }
 .menu__title{
     margin-top: 40px;
@@ -46,7 +49,7 @@
     text-transform: uppercase;
     font-weight: 500;
 }
-.menu_text{
+.menu__link{
     color: #ECECEC;
 
     padding-bottom: 3px;
@@ -57,56 +60,59 @@
     
     transition: 0.5s;
 }
-.menu_text_border
+.menu__link__border
 {
     border-bottom: 2px solid #98EC65;
 }
-.menu_text:hover{
+.menu__link:visited{
+    color: #fff;
+}
+.menu__link:hover{
     transition: 0.5s;
     
     color: #98EC65;
 }
-.header__burger{
-    display: none;
-}
 .header__burger__color{
     transition: 0.5s;
 }
-.menu__burger:hover .header__burger__color{
+.menu__burger__width__450:hover .header__burger__color{
     stroke: #98EC65;
 }
 
-@media screen and (max-width: 1250px){
-    .menu_text{
+@media screen and (max-width: 1300px){
+    .menu__link{
         margin: 0px 60px;
     }
 }
-@media screen and (max-width: 928px){
-    .menu_text:first-child{
+@media screen and (max-width: 981px){
+    .menu__link:first-child{
         margin-left: 0px;
     }
-    .menu_text:last-child{
+    .menu__link:last-child{
         margin-right: 0px;
     }
 }
-@media screen and (max-width: 818px){
-    .menu_text{
+@media screen and (max-width: 945px){
+    .menu__link{
         margin: 0px 31px;
     }
 }
-@media screen and (max-width: 640px){
-    .menu_text{
+@media screen and (max-width: 725px){
+    .menu__link{
         margin: 0px 10px;
     }
 }
-@media screen and (max-width: 515px){
-    .menu_text{
+@media screen and (max-width: 580px){
+    .menu__link{
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 444px){
-    .menu_text{
+@media screen and (max-width: 520px){
+    .menu__link{
+        display: none;
+    }
+    .menu__burger__List{
         display: none;
     }
     .header__burger{
@@ -115,7 +121,7 @@
 
         margin-left: 16px;
     }
-    .menu__burger{
+    .menu__burger__width__450{
         display: unset;
     
         margin-left: 16px;
