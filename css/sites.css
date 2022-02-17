@@ -16,6 +16,8 @@
     background-position: 55px bottom, right top;
 }
 .sites__title {
+    margin: 0px;
+
     width: 1405px;
     
     text-align: center;

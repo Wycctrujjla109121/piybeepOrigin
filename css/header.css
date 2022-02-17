@@ -1,4 +1,6 @@
 .header {
+    margin: 0px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,6 +15,8 @@
     background-repeat: no-repeat;
 }
 .header__bg{
+    margin: 0px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,6 +40,8 @@
     animation-delay: 0.2s;
 }
 .header__text{
+    margin: 0px;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     letter-spacing: 0.2em;
@@ -53,6 +59,8 @@
 
 }
 .header__label{
+    margin: 0px;
+
     font-family: 'Arvo', serif;
     font-size: 144px;
     line-height: 144px;
@@ -136,7 +144,7 @@
     }
 }
 
-@media screen  and (max-width: 540px){
+@media screen  and (max-width: 570px){
     .menu_text{
         display: none;
     }
@@ -156,15 +164,17 @@
 
         font-size: 26.78px;
         line-height: 26.78px;
+        margin-left: -56px;
     }
     .header__item{
         display: flex;
         justify-content: center;
-        
-        margin-left: -56px;
+
         width: 100%;
     }
     .header__burger{
+        border: none;
+
         display:unset;
 
         margin-left: 16px;

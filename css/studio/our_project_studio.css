@@ -6,6 +6,8 @@
     padding: 0px 85px;
 }
 .title {
+    margin: 0px;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     font-size: 36px;
@@ -44,6 +46,7 @@
     height: 100%;
 }
 .our_project__item {
+    text-decoration: none;
     cursor: pointer;
 }
 .our_project__wrapper_img {
@@ -66,6 +69,7 @@
     transition: 0.5s;
 }
 .our_project__label {
+    margin: 0px;
     margin-top: 20px;
 
     font-family: 'Source Code Pro', monospace;
@@ -75,6 +79,7 @@
     color: #fff;
 }
 .our_project__text {
+    margin: 0px;
     margin-top: 5px;
 
     font-family: 'Source Code Pro', monospace;
@@ -84,6 +89,10 @@
     color: #fff;
 }
 .our_project__button{
+    margin: 0px;
+
+    text-decoration: none;
+
     display: flex;
     justify-content: center;
     align-items: center;

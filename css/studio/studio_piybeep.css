@@ -35,6 +35,8 @@
     align-self: center;
 }
 .piybeep__text{
+    margin: 0px;
+
     margin-left: 10px;
 
     font-family: 'Source Code Pro', monospace;
@@ -46,6 +48,8 @@
     text-transform: uppercase;
 }
 .piybeep__title{
+    margin: 0px;
+
     font-family: 'Arvo', serif;
     font-size: 120px;
     letter-spacing: 100%;
@@ -64,6 +68,8 @@
     background-color: #98EC65;
 }
 .piybeep__desc{
+    margin: 0px;
+    
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     line-height: 36px;

@@ -6,6 +6,8 @@
     justify-content: center;
 }
 .evolution__title {
+    margin: 0px;
+
     font-family: 'PT Mono', monospace;
     font-size: 72px;
     line-height: 108.29px;

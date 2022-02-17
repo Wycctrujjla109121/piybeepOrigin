@@ -14,8 +14,7 @@
 }
 .price__btn_left{
     background-color: transparent;
-    width: 95px;
-    height: 68px;
+    border: none;
 }
 .price__leftButton__arrow{
     transition: 0.5s;
@@ -34,8 +33,8 @@
 
 .price__btn_right{
     background-color: transparent;
-    width: 95px;
-    height: 68px;
+
+    border: none;
 }
 .price__rightButton__arrow{
     transition: 0.5s;
@@ -150,7 +149,6 @@
     border-radius: 24px;
 }
 .price__more_details {
-    /* margin-top: 25px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,6 +159,8 @@
     color: #fff;
 
     transition: 0.5s;
+
+    text-decoration: none;
 }
 .price__more_details:visited:hover{
     color: #98EC65;

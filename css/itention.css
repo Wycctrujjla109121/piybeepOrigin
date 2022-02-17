@@ -10,6 +10,8 @@
     margin-top: 350px;
 }
 .itention__title{
+    margin: 0px;
+    
     font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;
     font-weight: 500;
@@ -59,6 +61,8 @@
 }
 
 .itention__label {
+    margin: 0px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,6 +108,8 @@
 }
 
 .itention__text {
+    margin: 0px;
+
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
     line-height: 18px;
@@ -111,7 +117,9 @@
     color: #797979;
 }
 
-
+.itention__type{
+    text-decoration: none;
+}
 
 
 .itention__web{

@@ -17,6 +17,14 @@
 }
 .menu__burger__List{
     background-color: transparent;
+
+    border: none;
+}
+.menu__burger__color{
+    transition: 0.5s;
+}
+.menu__burger__List:hover .menu__burger__color{
+    stroke: #98EC65;
 }
 .menu__title{
     margin-top: 40px;
@@ -59,6 +67,8 @@
     border-bottom: 2px solid transparent;
     
     transition: 0.5s;
+
+    text-decoration: none;
 }
 .menu__link__border
 {
@@ -97,17 +107,21 @@
         margin: 0px 31px;
     }
 }
-@media screen and (max-width: 725px){
+@media screen and (max-width: 746px){
     .menu__link{
         margin: 0px 10px;
     }
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 598px){
     .menu__link{
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 531px){
+    .menu__link{
+        margin: 0px 5px;
+    }
+}
 @media screen and (max-width: 520px){
     .menu__link{
         display: none;
@@ -125,6 +139,8 @@
         display: unset;
     
         margin-left: 16px;
+
+        border: none;
     }
     .menu{
         display: flex;

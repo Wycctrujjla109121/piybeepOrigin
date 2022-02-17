@@ -33,14 +33,20 @@
     color: #98EC65;
 }
 .description__expirience{
+    margin: 0px;
+
     width: 100%;
     max-width: 1102px;
 
+    padding: 0px 30px;
 }
 .description__design{
+    margin: 0px;
+
     width: 100%;
     max-width: 1143px;
-
+    
+    padding: 0px 30px;
 }
 .description__info__left{
     display: flex;

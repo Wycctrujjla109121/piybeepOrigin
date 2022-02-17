@@ -15,8 +15,7 @@
     height: 288px;
 }
 .reviews__btn_left {
-    width: 93px;
-    height: 69px;
+    border: none;
 
     background-color: transparent;
 }
@@ -37,8 +36,7 @@
 }
 
 .reviews__btn_right {
-    width: 97px;
-    height: 69px;
+    border: none;
 
     background-color: transparent;
 }
@@ -73,6 +71,7 @@
     display: flex;
     flex-direction: column;
 
+    margin: 0px;
     margin-top: 20px;
     
     font-family: 'Source Code Pro', monospace;
@@ -186,10 +185,30 @@
         margin-bottom: 38px;
     }
     .reviews__btn__left__width__768{
+        border: none;
+
         background-color: transparent;
+
+        transition: 0.5s;
+    }
+    .reviews__btn__left__width__768:hover .reviews__leftButton__arrow{
+        stroke: #98EC65;
+    }
+    .reviews__btn__left__width__768:hover .reviews__leftButton__border{
+        fill: #98EC65;
     }
     .reviews__btn__right__width__768{
+        border: none;
+
         background-color: transparent;
+
+        transition: 0.5s;
+    }
+    .reviews__btn__right__width__768:hover .reviews__rightButton__arrow{
+        stroke: #98EC65;
+    }
+    .reviews__btn__right__width__768:hover .reviews__rightButton__border{
+        fill: #98EC65;
     }
 }
 
@@ -215,5 +234,11 @@
     }
     .reviews__rightButton__arrow{
         stroke: transparent;
+    }
+    .reviews__btn__left__width__768:hover .reviews__leftButton__arrow{
+        stroke: none;
+    }
+    .reviews__btn__right__width__768:hover .reviews__rightButton__arrow{
+        stroke: none;
     }
 }

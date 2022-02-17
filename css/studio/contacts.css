@@ -17,6 +17,8 @@
     height: 100%;
 }
 .contacts__title {
+    margin: 0px;
+
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     font-size: 36px;
@@ -48,6 +50,7 @@
     border: 1px solid #fff;
 }
 .contacts__text {
+    margin: 0px;
     margin-bottom: 63px;
 
     font-family: 'Source Code Pro', monospace;
@@ -57,10 +60,12 @@
     color: #fff;
 }
 .contacts__list {
+    padding: 0px;
     display: flex;
     flex-direction: column;
 }
 .contacts__item {
+    text-decoration: none;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     line-height: 46.4px;
@@ -88,6 +93,8 @@
     background-color: #DEDEDE;
 }
 .contacts__desc__text {
+    margin: 0px;
+
     font-family: 'Source Code Pro', monospace;
     color: #000;
     font-size: 48px;
@@ -95,7 +102,6 @@
     font-weight: 300;
 
     padding: 72px 89px;
-
 }
 .contacts__desc__text::after{
     content: '';

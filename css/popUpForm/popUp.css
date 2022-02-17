@@ -32,6 +32,8 @@
 }
 
 .eye__quit {
+    border: none;
+    
     align-items: flex-end;
     align-content: flex-end;
     align-self: flex-end;

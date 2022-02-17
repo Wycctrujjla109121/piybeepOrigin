@@ -7,11 +7,11 @@
 
     width: 100%;
     max-width: 1640px;
-
-    padding: 0px 25px;
 }
 .social__title{
     margin-bottom: 100px;
+
+    padding: 0px 30px;
 }
 .social__wrapper {
     display: flex;
@@ -19,6 +19,8 @@
     justify-content: center;
 
     gap: 106px;
+
+    padding: 0px 30px;
 }
 .social__img{
     cursor: pointer;

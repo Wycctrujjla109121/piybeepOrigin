@@ -20,6 +20,8 @@
     background-position: right 3px, left 215px;
 }
 .advantage__item {
+    margin: 0px;
+
     display: flex;
     flex-direction: row;
 
@@ -29,9 +31,14 @@
     color: #DCDCDC;
 }
 .advantage__label {
+    margin: 0px;
+
+    font-size: inherit;
     font-weight: 500;
 }
 .advantage__text {
+    margin: 0px;
+
     font-weight: 300;
 }
 .advantage__adaptive {
@@ -76,6 +83,8 @@
     border: 1px solid #98EC65;
 }
 .advantage__desc{
+    margin: 0px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
