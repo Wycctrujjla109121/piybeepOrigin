@@ -343,7 +343,7 @@
         url(../../bgImage/stepsLeft620.svg), url(../../bgImage/stepsRight620.svg),
         url(../../bgImage/stepsLeft620.svg), url(../../bgImage/stepsRight620.svg);
         background-position-x: left, right;
-        background-position-y: 290px, 625px, 970px, 1310px, 1610px, 1910px;
+        background-position-y: 290px, 625px, 970px, 1350px, 1680px, 2020px;
 
         row-gap: 120px;
     }
